@@ -115,6 +115,14 @@
         font-size: 22px;
     }
 
+    #name {
+        text-shadow: 0 0 3px #fff, 0 0 8px #0ff;
+        background: cyan;
+        background-clip: text;
+        color: transparent;
+        animation: fadeSlideIn 2s ease-in-out;
+    }
+
     #links {
         position: absolute;
         top: 0;
