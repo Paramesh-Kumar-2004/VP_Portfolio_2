@@ -104,6 +104,7 @@
         align-items: center;
         z-index: 14;
         box-shadow: inset -14px 0 26px 3px palevioletred;
+        background: black;
     }
 
     #Menu {
