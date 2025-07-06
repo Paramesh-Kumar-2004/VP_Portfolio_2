@@ -20,6 +20,7 @@
 
     #name {
         font-size: 30px;
+        padding: 0 0 0 3px;
         background: skyblue;
         background-clip: text;
         color: transparent;
