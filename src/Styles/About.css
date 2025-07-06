@@ -61,14 +61,12 @@
 
     #Info {
         width: 100%;
-        /* word-wrap: break-word; */
     }
 
     #MyImg {
         padding: 0;
         margin: 0;
-        align-content: center;
-        align-self: center;
+        justify-self: center;
     }
 }
 
