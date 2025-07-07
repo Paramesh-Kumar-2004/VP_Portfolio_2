@@ -1,98 +1,99 @@
-import React, { useState } from 'react'
-import "../Styles/Contact.css"
-
+import React, { useState } from 'react';
+import '../Styles/Contact.css';
 
 
 function Contact() {
-
-  const [FormData, setFormData] = useState({
-    UserName: "",
-    UserEmail: "",
-    Message: ""
-  })
+  
+  const [formData, setFormData] = useState({
+    UserName: 'VP',
+    UserEmail: 'vp@gmail.com',
+    Message: 'VP',
+  });
   const [isSuccess, setIsSuccess] = useState(false);
 
-
-
-  const HandleOnChange = (e) => {
+  const handleOnChange = (e) => {
     setFormData((prev) => ({
       ...prev,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     }));
-  }
+  };
 
-  const HandleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-
-    // Send Mail
-    const subject = `Message from ${FormData.UserName}`;
-    const body = `Name: ${FormData.UserName}%0AEmail: ${FormData.UserEmail}%0AMessage: ${FormData.Message}`;
-    const mailtoLink = `mailto:svpparameshkumar2004@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-
-    window.location.href = mailtoLink;
 
     setIsSuccess(true);
 
-    console.log(FormData)
-    console.log("User Name :", FormData.UserName)
-    console.log("User Email :", FormData.UserEmail)
-    console.log("Message :", FormData.Message)
+    const formDataToSend = new FormData();
+    formDataToSend.append('UserName', formData.UserName);
+    formDataToSend.append('UserEmail', formData.UserEmail);
+    formDataToSend.append('Message', formData.Message);
+    formDataToSend.append('access_key', '278353fd-92fe-4718-89bc-0881b4f39ebb');
+
+    const response = await fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      body: formDataToSend,
+    });
+    const data = await response.json();
+
+    console.log(data);
+    console.log('User Name :', formData.UserName);
+    console.log('User Email :', formData.UserEmail);
+    console.log('Message :', formData.Message);
 
     setFormData({
-      UserName: "",
-      UserEmail: "",
-      Message: ""
-    })
-  }
+      UserName: '',
+      UserEmail: '',
+      Message: '',
+    });
+  };
 
   return (
-    <div id='Main_Contact_Div'>
-      <h1 id='Title'>Contact</h1>
+    <div id="Main_Contact_Div">
+      <h1 id="Title">Contact</h1>
 
-      <form onSubmit={HandleSubmit} id='form'>
+      <form onSubmit={handleSubmit} id="form">
         <div id="UserName">
-          <label className='label'>Name :</label><br />
+          <label className="label">Name :</label><br />
           <input
             type="text"
-            name='UserName'
-            placeholder='Enter Your Name'
-            value={FormData.UserName}
-            onChange={HandleOnChange}
+            name="UserName"
+            placeholder="Enter Your Name"
+            value={formData.UserName}
+            onChange={handleOnChange}
             required
           />
         </div>
 
         <div id="UserEmail">
-          <label className='label'>Email :</label><br />
+          <label className="label">Email :</label><br />
           <input
-            name='UserEmail'
+            name="UserEmail"
             type="email"
-            placeholder='Enter Your Email'
-            value={FormData.UserEmail}
-            onChange={HandleOnChange}
+            placeholder="Enter Your Email"
+            value={formData.UserEmail}
+            onChange={handleOnChange}
             required
           />
         </div>
 
         <div id="UserMessage">
-          <label className='label'>Message :</label><br />
+          <label className="label">Message :</label><br />
           <input
-            name='Message'
-            placeholder='Enter Your Message'
-            onChange={HandleOnChange}
-            value={FormData.Message}
+            name="Message"
+            placeholder="Enter Your Message"
+            onChange={handleOnChange}
+            value={formData.Message}
             type="text"
             required
           />
         </div>
 
-        <button type="submit" id='SendButton'>Send</button>
+        <button type="submit" id="SendButton">Send</button>
 
         {isSuccess && <p id="SuccessMessage">Mail app opened successfully ✅</p>}
-
       </form>
     </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
