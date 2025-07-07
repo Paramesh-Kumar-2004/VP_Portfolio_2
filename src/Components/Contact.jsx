@@ -9,9 +9,9 @@ function Contact() {
   const [isSuccess, setIsSuccess] = useState(true);
 
   const [formData, setFormData] = useState({
-    UserName: 'VP',
-    UserEmail: 'vp@gmail.com',
-    Message: 'VP',
+    UserName: '',
+    UserEmail: '',
+    Message: '',
   });
 
   const handleOnChange = (e) => {
