@@ -106,7 +106,15 @@ function Contact() {
           />
         </div>
 
-        <button type="submit" id="SendButton">Send</button>
+        <button type="submit" id="SendButton"
+          style={{
+            opacity: !isSuccess ? 0.5 : 1,
+            cursor: !isSuccess ? "not-allowed" : "pointer",
+            background: !isSuccess ? "grey" : ""
+          }}
+        >
+          {isSuccess ? "Send" : "Sending..."}
+        </button>
 
       </form>
     </div>
@@ -114,3 +122,4 @@ function Contact() {
 }
 
 export default Contact;
+
