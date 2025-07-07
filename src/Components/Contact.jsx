@@ -9,7 +9,7 @@ function Contact() {
     UserEmail: 'vp@gmail.com',
     Message: 'VP',
   });
-  const [Result, setResult] = useState("");
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const handleOnChange = (e) => {
     setFormData((prev) => ({
@@ -20,6 +20,7 @@ function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
 
     const formDataToSend = new FormData();
     formDataToSend.append('UserName', formData.UserName);
@@ -32,8 +33,8 @@ function Contact() {
       body: formDataToSend,
     });
     const data = await response.json();
+    setIsSuccess(data.success);
 
-    setResult(data.success)
     console.log(data);
     console.log('User Name :', formData.UserName);
     console.log('User Email :', formData.UserEmail);
@@ -89,7 +90,7 @@ function Contact() {
 
         <button type="submit" id="SendButton">Send</button>
 
-        {Result && <p id="SuccessMessage">{React}</p>}
+        {isSuccess && <p id="SuccessMessage">Mail app opened successfully ✅</p>}
       </form>
     </div>
   );
