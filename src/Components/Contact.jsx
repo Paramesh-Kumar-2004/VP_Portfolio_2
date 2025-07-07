@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
-import enqueueSnackbar from "notistack"
+import { useSnackbar } from 'notistack';
 import '../Styles/Contact.css';
 
 
 function Contact() {
+
+  const { enqueueSnackbar } = useSnackbar();
+  const [isSuccess, setIsSuccess] = useState(true);
 
   const [formData, setFormData] = useState({
     UserName: 'VP',
     UserEmail: 'vp@gmail.com',
     Message: 'VP',
   });
-  const [isSuccess, setIsSuccess] = useState(false);
 
   const handleOnChange = (e) => {
     setFormData((prev) => ({
@@ -21,6 +23,8 @@ function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    setIsSuccess(false);
 
     const formDataToSend = new FormData();
     formDataToSend.append('UserName', formData.UserName);
@@ -33,10 +37,20 @@ function Contact() {
       body: formDataToSend,
     });
     const data = await response.json();
-    setIsSuccess(data.success);
+
+    setIsSuccess(true)
 
     if (data.success) {
-      alert("Mail Send Successfully ✅")
+      enqueueSnackbar("Mail Send Successfully", {
+        variant: "success",
+        autoHideDuration: 3000
+      })
+    }
+    if (!data.success) {
+      enqueueSnackbar("Something Went Wrong... Try Later", {
+        variant: "error",
+        autoHideDuration: 3000
+      })
     }
 
     console.log(data);
