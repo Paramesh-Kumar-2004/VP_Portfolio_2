@@ -21,7 +21,6 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-
     const formDataToSend = new FormData();
     formDataToSend.append('UserName', formData.UserName);
     formDataToSend.append('UserEmail', formData.UserEmail);
@@ -34,6 +33,10 @@ function Contact() {
     });
     const data = await response.json();
     setIsSuccess(data.success);
+
+    if (data.success) {
+      alert("Mail Send Successfully ✅")
+    }
 
     console.log(data);
     console.log('User Name :', formData.UserName);
@@ -90,7 +93,6 @@ function Contact() {
 
         <button type="submit" id="SendButton">Send</button>
 
-        {isSuccess && <p id="SuccessMessage">Mail app opened successfully ✅</p>}
       </form>
     </div>
   );
