@@ -3,13 +3,13 @@ import '../Styles/Contact.css';
 
 
 function Contact() {
-  
+
   const [formData, setFormData] = useState({
     UserName: 'VP',
     UserEmail: 'vp@gmail.com',
     Message: 'VP',
   });
-  const [isSuccess, setIsSuccess] = useState(false);
+  const [Result, setResult] = useState("");
 
   const handleOnChange = (e) => {
     setFormData((prev) => ({
@@ -20,8 +20,6 @@ function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    setIsSuccess(true);
 
     const formDataToSend = new FormData();
     formDataToSend.append('UserName', formData.UserName);
@@ -35,6 +33,7 @@ function Contact() {
     });
     const data = await response.json();
 
+    setResult(data.success)
     console.log(data);
     console.log('User Name :', formData.UserName);
     console.log('User Email :', formData.UserEmail);
@@ -90,7 +89,7 @@ function Contact() {
 
         <button type="submit" id="SendButton">Send</button>
 
-        {isSuccess && <p id="SuccessMessage">Mail app opened successfully ✅</p>}
+        {Result && <p id="SuccessMessage">{React}</p>}
       </form>
     </div>
   );
