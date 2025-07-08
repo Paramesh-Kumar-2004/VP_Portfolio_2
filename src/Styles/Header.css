@@ -112,9 +112,8 @@
     #Menu {
         display: block;
         cursor: pointer;
-        padding: 12px;
         color: white;
-        font-size: 22px;
+        padding: 0 26px 0 0 ;
     }
 
     #name {
@@ -127,7 +126,7 @@
 
     #links {
         position: absolute;
-        top: 40px;
+        top: 42px;
         right: 14px;
         background: rgba(0, 200, 255, 0);
         border-radius: 14px;

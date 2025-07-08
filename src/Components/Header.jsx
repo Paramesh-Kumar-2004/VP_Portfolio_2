@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "../Styles/Header.css";
+import Hamburger from './Hamburger';
 
 
 
@@ -13,7 +14,11 @@ function Header() {
     <div id="Main_Header_Div">
       <nav id='nav'>
         <h2 id='name'>Paramesh Kumar S</h2>
-        <h3 id="Menu" onClick={ChangeMenu}>{!openMenu ? "MENU" : "Close"}</h3>
+        {/* <h3 id="Menu" onClick={ChangeMenu}>{!openMenu ? "MENU" : "Close"}</h3> */}
+
+        <p onClick={ChangeMenu} id="Menu">
+          <Hamburger />
+        </p>
 
         <ul id="links" className={openMenu ? 'show' : 'hide'}>
           <li className='lists'><a onClick={ChangeMenu} href="#Main_Home_Div">Home</a></li>
