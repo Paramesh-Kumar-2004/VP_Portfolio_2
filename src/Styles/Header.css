@@ -127,7 +127,7 @@
 
     #links {
         position: absolute;
-        top: 0;
+        top: 40px;
         right: 14px;
         background: rgba(0, 200, 255, 0);
         border-radius: 14px;
