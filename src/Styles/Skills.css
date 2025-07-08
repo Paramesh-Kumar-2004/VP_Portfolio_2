@@ -23,6 +23,10 @@
     align-items: center;
 }
 
+.Cards h3{
+    font-size: medium;
+}
+
 .Circle {
     position: relative;
     height: 120px;
@@ -50,7 +54,6 @@
 }
 
 
-/* Apply images to individual skills */
 #Python {
     background-image: url("../Images/Python.jpeg");
 }
@@ -92,7 +95,6 @@
     background-image: url("../Images/MongoDB.png");
 }
 
-
 /* On hover, hide background and show text */
 .Circle:hover {
     background-image: none !important;
@@ -115,7 +117,6 @@
     opacity: 1;
 }
 
-/* Bubble mirror animation */
 .bubble {
     position: absolute;
     border-radius: 50%;
@@ -159,7 +160,6 @@
         opacity: 0.6;
     }
 }
-
 
 
 
