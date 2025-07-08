@@ -104,7 +104,8 @@
         justify-content: space-between;
         align-items: center;
         z-index: 14;
-        box-shadow: inset -14px 0 26px 3px palevioletred;
+        /* box-shadow: inset -14px 0 26px 3px palevioletred; */
+        box-shadow: inset -14px 0 26px 3px skyblue;
         background: black;
     }
 
