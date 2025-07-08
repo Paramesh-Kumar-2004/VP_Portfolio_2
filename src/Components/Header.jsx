@@ -16,9 +16,9 @@ function Header() {
         <h2 id='name'>Paramesh Kumar S</h2>
         {/* <h3 id="Menu" onClick={ChangeMenu}>{!openMenu ? "MENU" : "Close"}</h3> */}
 
-        <p onClick={ChangeMenu} id="Menu">
+        <h1 onClick={ChangeMenu} id="Menu">
           <Hamburger />
-        </p>
+        </h1>
 
         <ul id="links" className={openMenu ? 'show' : 'hide'}>
           <li className='lists'><a onClick={ChangeMenu} href="#Main_Home_Div">Home</a></li>
