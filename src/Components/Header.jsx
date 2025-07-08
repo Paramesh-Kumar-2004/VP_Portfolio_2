@@ -16,11 +16,15 @@ function Header() {
         <h3 id="Menu" onClick={ChangeMenu} style={{ display: openMenu ? "none" : "" }}>MENU</h3>
 
         <ul id="links" className={openMenu ? 'show' : 'hide'}>
-          <li className='lists'><p onClick={ChangeMenu}
-          style={{
-            color:"red",
-          }}
-          >X</p></li>
+
+          {openMenu && (
+            <li className='lists'><p onClick={ChangeMenu}
+              style={{
+                color: "red",
+              }}
+            >X</p></li>
+          )}
+
           <li className='lists'><a onClick={ChangeMenu} href="#Main_Home_Div">Home</a></li>
           <li className='lists'><a onClick={ChangeMenu} href="#Main_About_Div">About</a></li>
           <li className='lists'><a onClick={ChangeMenu} href="#Main_Skill_Div">Skills</a></li>
