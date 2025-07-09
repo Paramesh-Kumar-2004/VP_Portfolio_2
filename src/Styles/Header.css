@@ -146,6 +146,7 @@
         font-size: 20px;
         text-decoration: none;
         background: linear-gradient(orange, gold);
+        /* background: lime; */
         background-clip: text;
         color: transparent;
     }
