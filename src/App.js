@@ -14,8 +14,6 @@ import "./Styles/App.css"
 
 function App() {
 
-  alert("Hamburger Not Closing While Clicking a Tags.")
-
   return (
     <div id='App_Main'>
       <Header />
