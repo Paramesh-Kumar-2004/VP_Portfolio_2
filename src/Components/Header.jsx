@@ -6,7 +6,7 @@ import Hamburger from './Hamburger';
 
 function Header() {
 
-  const [openMenu, setOpenMenu] = useState(false);
+  const [openMenu, setOpenMenu] = useState(true);
 
   const ChangeMenu = () => setOpenMenu(!openMenu);
 
@@ -17,7 +17,7 @@ function Header() {
         {/* <h3 id="Menu" onClick={ChangeMenu}>{!openMenu ? "MENU" : "Close"}</h3> */}
 
         <h1 onClick={ChangeMenu} id="Menu">
-          <Hamburger OpenMenu={openMenu}/>
+          <Hamburger OpenMenu={openMenu} />
         </h1>
 
         <ul id="links" className={openMenu ? 'show' : 'hide'}>
