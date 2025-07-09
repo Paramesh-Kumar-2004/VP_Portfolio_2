@@ -146,7 +146,7 @@
         font-size: 20px;
         text-decoration: none;
         background: linear-gradient(orange, gold);
-        /* background: lime; */
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         background-clip: text;
         color: transparent;
     }
