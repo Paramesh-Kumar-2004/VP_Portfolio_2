@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
+
 function Hamburger({ OpenMenu }) {
   return (
     <StyledWrapper>
