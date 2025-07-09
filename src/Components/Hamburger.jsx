@@ -13,7 +13,7 @@ function Hamburger({ OpenMenu }) {
           checked={OpenMenu}
           readOnly
         />
-        <svg fill="none" viewBox="0 0 50 50" height={50} width={50}>
+        <svg fill="none" viewBox="0 0 50 50" height={50} width={40}>
           <path className="lineTop line" strokeLinecap="round" strokeWidth={4} stroke="black" d="M6 11L44 11" />
           <path strokeLinecap="round" strokeWidth={4} stroke="black" d="M6 24H43" className="lineMid line" />
           <path strokeLinecap="round" strokeWidth={4} stroke="black" d="M6 37H43" className="lineBottom line" />
