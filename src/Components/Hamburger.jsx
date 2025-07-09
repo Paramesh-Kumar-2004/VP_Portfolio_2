@@ -1,13 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 
-
-function Hamburger() {
-
+function Hamburger({ OpenMenu }) {
   return (
     <StyledWrapper>
       <div className="hamburger">
-        <input className="checkbox" type="checkbox" />
+        {/* Controlled checkbox using OpenMenu prop */}
+        <input
+          className="checkbox"
+          type="checkbox"
+          checked={OpenMenu}
+          readOnly // prevent user toggle if you don't pass onChange
+        />
         <svg fill="none" viewBox="0 0 50 50" height={50} width={50}>
           <path className="lineTop line" strokeLinecap="round" strokeWidth={4} stroke="black" d="M6 11L44 11" />
           <path strokeLinecap="round" strokeWidth={4} stroke="black" d="M6 24H43" className="lineMid line" />
@@ -63,6 +67,7 @@ const StyledWrapper = styled.div`
     stroke-dashoffset: 0;
     transform-origin: left;
     transform: rotateZ(-45deg) translate(-5px, 5px);
-  }`;
+  }
+`;
 
 export default Hamburger;
