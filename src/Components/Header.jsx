@@ -17,7 +17,7 @@ function Header() {
         {/* <h3 id="Menu" onClick={ChangeMenu}>{!openMenu ? "MENU" : "Close"}</h3> */}
 
         <h1 onClick={ChangeMenu} id="Menu">
-          <Hamburger />
+          <Hamburger OpenMenu={openMenu}/>
         </h1>
 
         <ul id="links" className={openMenu ? 'show' : 'hide'}>
