@@ -5,12 +5,11 @@ function Hamburger({ OpenMenu }) {
   return (
     <StyledWrapper>
       <div className="hamburger">
-        {/* Controlled checkbox using OpenMenu prop */}
         <input
           className="checkbox"
           type="checkbox"
           checked={OpenMenu}
-          readOnly // prevent user toggle if you don't pass onChange
+          readOnly
         />
         <svg fill="none" viewBox="0 0 50 50" height={50} width={50}>
           <path className="lineTop line" strokeLinecap="round" strokeWidth={4} stroke="black" d="M6 11L44 11" />
@@ -71,3 +70,4 @@ const StyledWrapper = styled.div`
 `;
 
 export default Hamburger;
+
