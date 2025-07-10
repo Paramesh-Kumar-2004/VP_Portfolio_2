@@ -51,7 +51,7 @@
 #MyImg:hover {
     scale: 1.1;
     transition: all 0.2004s ease-in-out;
-    box-shadow: 0px 0px 14px 3px pink;
+    box-shadow: 0px 0px 14px 3px cyan;
 }
 
 
