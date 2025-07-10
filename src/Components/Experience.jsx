@@ -33,7 +33,7 @@ function Experience() {
                         <h3>{experience.position}</h3>
                         <p className="company">{experience.company}</p>
                         <p className='projectname'><b>Project : </b> {experience.projectname}</p>
-                        <p className="duration">{experience.duration}</p>
+                        <p className="duration"><b>Duration :</b> {experience.duration}</p>
                         <p className="description">{experience.description}</p>
                     </div>
                 ))}
