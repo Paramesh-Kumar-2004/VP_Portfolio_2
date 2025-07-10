@@ -20,7 +20,7 @@ function Experience() {
             position: 'Python Developer Intern',
             company: 'NovaNectar Services Pvt. Ltd.',
             duration: ' August 10, 2024 to September 10, 2024',
-            description: `Developed an interactive text-based adventure game using Python. Implemented core game mechanics: player progression, score/ life tracking, and weapon collection. Applied object - oriented programming and random event generation to enhance gameplay. Focused on user - driven decision loops to encourage strategic thinking.`
+            description: `This is a Python-based text adventure game where the player plays as a "Shooter" navigating random paths, collecting weapons, and battling dragons. Players must make choices to attack, run, or open treasures, all while managing score and lives. The game uses OOP concepts and random events for an engaging experience. It's fully console-driven and allows replay after game over or win.`
         },
     ];
     return (
