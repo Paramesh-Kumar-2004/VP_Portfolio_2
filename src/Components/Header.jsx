@@ -28,6 +28,7 @@ function Header() {
           <li className='lists'><a onClick={ChangeMenu} href="#Main_Experience_Div">Experience</a></li>
           <li className='lists'><a onClick={ChangeMenu} href="#Main_Contact_Div">Contact</a></li>
         </ul>
+
       </nav>
     </div>
   );
