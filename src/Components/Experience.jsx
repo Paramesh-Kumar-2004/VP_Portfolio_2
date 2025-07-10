@@ -12,7 +12,7 @@ function Experience() {
             position: 'Full Stack Developer Intern',
             company: 'Expleo Technologies',
             duration: 'Oct 2024 - May 2025',
-            description: 'Developed frontend and backend features for client projects using React.js, Node.js, and MongoDB.',
+            description: "An OTA (Over-The-Air) Full Stack Application for automotive use enables manufacturers to deliver software updates directly to a vehicle's infotainment system wirelessly, eliminating the need for physical servicing or manual intervention. This solution ensures that vehicle systems remain secure, up-to-date, and enriched with the latest features.",
         },
         {
             id: 2,
