@@ -5,7 +5,7 @@ import "../Styles/Experience.css"
 
 
 function Experience() {
-    
+
     const experienceData = [
         {
             id: 1,
@@ -30,12 +30,14 @@ function Experience() {
                 <h1 id='Title'>Experience</h1>
 
                 {experienceData.map((experience) => (
-                    <div key={experience.id} className="experience-item">
-                        <h3>{experience.position}</h3>
-                        <p className="company">{experience.company}</p>
-                        <p className='projectname'><b>Project : </b> {experience.projectname}</p>
-                        <p className="duration"><b>Duration :</b> {experience.duration}</p>
-                        <p className="description">{experience.description}</p>
+                    <div key={experience.id} className="Experience-Item">
+                        <div id='ExperienceDetails'>
+                            <h3 className='JobTitle'>{experience.position}</h3>
+                            <p className="Company">{experience.company}</p>
+                            <p className='Projectname'><b>Project : </b> {experience.projectname}</p>
+                            <p className="Duration"><b>Duration :</b> {experience.duration}</p>
+                            <p className="Description">{experience.description}</p>
+                        </div>
                     </div>
                 ))}
 
