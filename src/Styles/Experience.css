@@ -26,6 +26,9 @@
     display: flex;
     flex-direction: column;
     row-gap: 14px;
+    opacity: 0;
+    transform: translateY(-24px);
+    animation: fadein 1s ease-in-out forwards;
 }
 
 .JobTitle {
@@ -50,5 +53,12 @@
 .Description {
     margin-top: 10px;
     line-height: 1.5;
-    color: #F2F4C3 ;
+    color: #F2F4C3;
+}
+
+@keyframes fadein {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
