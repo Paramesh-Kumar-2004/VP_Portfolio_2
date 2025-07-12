@@ -22,6 +22,7 @@
     font-size: large;
     margin-top: 14px;
     display: inline-block;
+    text-shadow: 0 0 2px white, 0 0 2px pink;
 }
 
 #SendButton {
@@ -63,9 +64,9 @@ input:focus {
 }
 
 #SuccessMessage {
-  color: green;
-  font-weight: 500;
-  margin-top: 10px;
+    color: green;
+    font-weight: 500;
+    margin-top: 10px;
 }
 
 
