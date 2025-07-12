@@ -53,6 +53,7 @@
         background: linear-gradient(orangered, goldenrod);
         background-clip: text;
         color: transparent;
+        text-shadow: 0 0 5px orangered;
         animation: fadeSlideIn 1s ease-out forwards;
     }
 
@@ -148,7 +149,7 @@
         text-decoration: none;
         background: linear-gradient(orange, gold);
         font-family: sans-serif;
-        text-shadow: 0 0 4px cyan,0 0 4px blue;
+        text-shadow: 0 0 4px cyan, 0 0 4px blue;
         background-clip: text;
         color: transparent;
     }
