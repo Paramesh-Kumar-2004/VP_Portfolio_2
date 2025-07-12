@@ -1,7 +1,6 @@
 * {
     margin: 0;
     scroll-behavior: smooth;
-    /* scroll-padding-top: 70px; */
 }
 
 #App_Main {
@@ -12,5 +11,6 @@
 #Title {
     padding: 65px 65px 0px 65px;
     text-shadow: 0 0 3px #fff, 0 0 3px #0ff;
+    text-shadow: 0 0 14px skyblue, 0 0 14px #0ff;
     justify-self: center;
 }
