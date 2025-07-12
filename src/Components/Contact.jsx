@@ -109,7 +109,7 @@ function Contact() {
         <button type="submit" id="SendButton"
           style={{
             opacity: !isSuccess ? 0.5 : 1,
-            cursor: !isSuccess ? "not-allowed" : "pointer",
+            cursor: !isSuccess ? "progress" : "pointer",
             background: !isSuccess ? "grey" : ""
           }}
         >
