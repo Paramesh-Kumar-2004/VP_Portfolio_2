@@ -8,7 +8,6 @@ function LinkedIn() {
         <div className="tooltip">
           <div className="profile">
             <div className="user">
-              {/* <div className="img">Ui</div> */}
               <div className="details">
                 <div className="name">LinkedIn_User_Name</div>
                 <div className="username">Paramesh Kumar S</div>
