@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
+
 function LinkedIn() {
   return (
     <StyledWrapper>
@@ -183,4 +185,3 @@ const StyledWrapper = styled.div`
   }`;
 
 export default LinkedIn;
-
