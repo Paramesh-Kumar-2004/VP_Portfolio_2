@@ -14,7 +14,7 @@ function LinkedIn() {
                 <div className="username">Paramesh Kumar S</div>
               </div>
             </div>
-            <div className="about">60+ Connections</div>
+            <div className="about">68 Connections</div>
           </div>
         </div>
         <div className="text">
