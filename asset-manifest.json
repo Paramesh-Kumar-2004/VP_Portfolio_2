@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/VP_Portfolio_2/static/css/main.94eb3d91.css",
+    "main.js": "/VP_Portfolio_2/static/js/main.56d139f3.js",
+    "static/media/Wallpaper_4.jpg": "/VP_Portfolio_2/static/media/Wallpaper_4.ed3531a5a2983dec55d3.jpg",
+    "static/media/Wallpaper_2.jpg": "/VP_Portfolio_2/static/media/Wallpaper_2.bd0213ae020d82a34751.jpg",
+    "static/media/Wallpaper_3.jpg": "/VP_Portfolio_2/static/media/Wallpaper_3.524007b60fdd3f6191d1.jpg",
+    "static/media/Wallpaper_1.jpg": "/VP_Portfolio_2/static/media/Wallpaper_1.5432887a89c4fcfdf3f7.jpg",
+    "static/media/Wallpaper_5.jpg": "/VP_Portfolio_2/static/media/Wallpaper_5.99fae94c17c069f7f7ad.jpg",
+    "static/media/Minato 2.jpg": "/VP_Portfolio_2/static/media/Minato 2.ec5354ba9c7bc42d0da3.jpg",
+    "static/media/Text_Game_2.jpg": "/VP_Portfolio_2/static/media/Text_Game_2.629b82d7ae5fcdeb8a70.jpg",
+    "static/media/E-Learning_VR_1.jpg": "/VP_Portfolio_2/static/media/E-Learning_VR_1.4f7dd85b3a98c7f9f2ae.jpg",
+    "static/media/Pyro_Patrol.jpg": "/VP_Portfolio_2/static/media/Pyro_Patrol.039fdd4749c72703e083.jpg",
+    "static/media/AI_Assistant_1.jpg": "/VP_Portfolio_2/static/media/AI_Assistant_1.451888631d8f7f3c8851.jpg",
+    "static/media/Pytest_Selenium.png": "/VP_Portfolio_2/static/media/Pytest_Selenium.aecd49e20b59d5e538a9.png",
+    "static/media/OTA.jpg": "/VP_Portfolio_2/static/media/OTA.50c2da3958395d40d46a.jpg",
+    "static/media/VP.jpeg": "/VP_Portfolio_2/static/media/VP.deb110340f7faf513510.jpeg",
+    "static/media/ReactJs.png": "/VP_Portfolio_2/static/media/ReactJs.4bbbd007b49a6a9ba8e9.png",
+    "index.html": "/VP_Portfolio_2/index.html",
+    "main.94eb3d91.css.map": "/VP_Portfolio_2/static/css/main.94eb3d91.css.map",
+    "main.56d139f3.js.map": "/VP_Portfolio_2/static/js/main.56d139f3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.94eb3d91.css",
+    "static/js/main.56d139f3.js"
+  ]
+}
