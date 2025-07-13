@@ -51,18 +51,17 @@
         font-size: 26px;
         text-decoration: none;
         background: linear-gradient(orangered, goldenrod);
+        background: lightblue;
         background-clip: text;
         color: transparent;
-        text-shadow: 0 0 5px orangered;
+        text-shadow: 0 0 5px lightblue;
         animation: fadeSlideIn 1s ease-out forwards;
     }
 
     .lists a:hover {
         color: rgb(0, 183, 255);
-        text-shadow: 0 0 4px #fff, 0 0 4px #0ff;
+        text-shadow: 0 0 4px darkblue, 0 0 4px darkblue;
         transition: all 126ms ease-in-out;
-        transition: all 126ms ease-in-out;
-        /* box-shadow: 0 3px 0 0 rgb(255, 0, 242); */
         text-decoration-line: underline;
         text-decoration-color: rgb(0, 183, 255);
     }
