@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Typed from 'typed.js'
 
 import LinkedIn from './Social_Media/LinkedIn'
@@ -11,6 +11,7 @@ function Home() {
 
   const el = useRef(null);
   const typed = useRef(null);
+  const [showResume, setShowResume] = useState(true)
 
   useEffect(() => {
     typed.current = new Typed(el.current, {
@@ -25,6 +26,14 @@ function Home() {
       typed.current.destroy();
     };
   }, []);
+
+  const pdfPath = 'public\VP_Resume.pdf';
+
+  const handleShow = () => {
+    console.log('PDF Path:', pdfPath);
+    alert('PDF Path: ' + pdfPath);
+    window.open(pdfPath, '_blank');
+  };
 
   return (
     <>
@@ -43,6 +52,8 @@ function Home() {
           <LinkedIn />
           <Github />
         </div>
+
+        <button onClick={handleShow}>Show</button>
 
       </div>
     </>
