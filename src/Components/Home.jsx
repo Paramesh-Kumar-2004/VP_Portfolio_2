@@ -4,7 +4,6 @@ import Typed from 'typed.js'
 import LinkedIn from './Social_Media/LinkedIn'
 import Github from './Social_Media/GitHub'
 import "../Styles/Home.css"
-import Resume from "../../src/Images/VP.jpeg"
 
 
 
