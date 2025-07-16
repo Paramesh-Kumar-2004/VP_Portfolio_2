@@ -54,6 +54,25 @@
 }
 
 
+#Resume {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 14px;
+    border: none;
+    background: skyblue;
+}
+
+#OpenResume {
+    display: none;
+}
+#DownloadResume {
+    display: none;
+}
+
+#Resume:hover {
+    background: blue;
+}
+
 
 @keyframes slideshow {
     0% {

@@ -44,8 +44,14 @@ function Home() {
           <Github />
         </div>
 
-        <button>
+        {/* <button>
           <a href={Resume} target='_b'>Show Resume</a>
+        </button> */}
+
+        <button id="Resume">
+          <p id='OpenResume'>Open</p>
+          <p id='DownloadResume'>Download</p>
+          Resume
         </button>
 
       </div>
