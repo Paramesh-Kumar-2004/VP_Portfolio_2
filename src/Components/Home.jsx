@@ -49,8 +49,8 @@ function Home() {
         </button> */}
 
         <button id="Resume">
-          <p id='OpenResume'>Open</p>
-          <p id='DownloadResume'>Download</p>
+          <p id='OpenResume'>O</p>
+          <p id='DownloadResume'>D</p>
           Resume
         </button>
 
