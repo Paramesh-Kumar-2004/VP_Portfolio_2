@@ -4,7 +4,7 @@ import Typed from 'typed.js'
 import LinkedIn from './Social_Media/LinkedIn'
 import Github from './Social_Media/GitHub'
 import "../Styles/Home.css"
-
+import Resume from "../Images/VP_Resume.pdf"
 
 
 function Home() {
@@ -43,6 +43,10 @@ function Home() {
           <LinkedIn />
           <Github />
         </div>
+
+        <button>
+          <a href={Resume} target='_b'>Show Resume</a>
+        </button>
 
       </div>
     </>
