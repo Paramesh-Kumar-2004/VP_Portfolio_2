@@ -65,12 +65,20 @@
 #OpenResume {
     display: none;
 }
+
 #DownloadResume {
     display: none;
 }
 
 #Resume:hover {
     background: blue;
+}
+
+#Resume:hover #DownloadResume {
+    position: absolute;
+    display: block;
+    background: #000;
+    color: aliceblue;
 }
 
 
