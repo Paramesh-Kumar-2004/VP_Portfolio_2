@@ -162,7 +162,7 @@
 .tooltip2 {
   position: absolute;
   top: 100%;
-  left: 50%;
+  right: 100vh;
   transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
@@ -173,15 +173,14 @@
   transition:
     opacity 0.3s,
     visibility 0.3s,
-    top 0.3s,
-    background 0.3s;
+    background 0.3s,
+    right 1s;
   z-index: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .tooltip-container-resume:hover .tooltip2 {
-  top: -50%;
-  left: -10%;
+  right: 60px;
   opacity: 1;
   visibility: visible;
   background: #fff;
@@ -197,10 +196,32 @@
   fill: #fff;
 }
 
-.tooltip3 {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .tooltip3 {
   position: absolute;
   top: 100%;
-  left: 50%;
+  right: 100vh;
   transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
@@ -211,15 +232,14 @@
   transition:
     opacity 0.3s,
     visibility 0.3s,
-    top 0.3s,
-    background 0.3s;
+    background 0.3s,
+    right 1s;
   z-index: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .tooltip-container-resume:hover .tooltip3 {
-  top: -50%;
-  left: 126%;
+  right: 60px;
   opacity: 1;
   visibility: visible;
   background: #fff;
@@ -233,4 +253,4 @@
 .tooltip-container-resume:hover .tooltip3:hover {
   background: #1db954;
   fill: #fff;
-}
+} */
