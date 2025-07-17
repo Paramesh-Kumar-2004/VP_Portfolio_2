@@ -55,7 +55,7 @@ function Home() {
         </button>
 
 
-        <div class="tooltip-container">
+        <div class="tooltip-container-resume">
           <span class="text">
             Resume
           </span>
