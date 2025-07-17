@@ -44,16 +44,6 @@ function Home() {
           <Github />
         </div>
 
-        {/* <button>
-          <a href={Resume} target='_b'>Show Resume</a>
-        </button> */}
-
-        <button id="Resume">
-          <a href="#" id='OpenResume'>O</a>
-          <a href="#" id='DownloadResume'>D</a>
-          Resume
-        </button>
-
 
         <div class="tooltip-container-resume">
           <span class="text">
