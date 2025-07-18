@@ -50,39 +50,42 @@ function Home() {
             Resume
           </span>
 
-          <span className="tooltip2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="26"
-              height="26"
-              className="bi bi-eye"
-              viewBox="0 0 16 16"
-            >
-              <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM8 12.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z" />
-              <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z" />
-            </svg>
+          <a href={Resume} target='-b'>
+            <span className="tooltip2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                className="bi bi-eye"
+                viewBox="0 0 16 16"
+              >
+                <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM8 12.5a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z" />
+                <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z" />
+              </svg>
+            </span>
+          </a>
 
-          </span>
-          <span className="tooltip3">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="26"
-              height="26"
-              className="bi bi-arrow-down-circle"
-              viewBox="0 0 16 16"
-              style={{ transform: "rotate(180deg)" }}
-            >
-              <path
-                fillRule="evenodd"
-                d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
-              />
-              <path
-                fillRule="evenodd"
-                d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"
-              />
-            </svg>
-
-          </span>
+          <a href={Resume} download>
+            <span className="tooltip3">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                className="bi bi-arrow-down-circle"
+                viewBox="0 0 16 16"
+                style={{ transform: "rotate(180deg)" }}
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+                />
+                <path
+                  fillRule="evenodd"
+                  d="M8 12a.5.5 0 0 0 .5-.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 .5.5z"
+                />
+              </svg>
+            </span>
+          </a>
 
         </div>
 
