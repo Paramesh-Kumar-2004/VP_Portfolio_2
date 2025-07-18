@@ -167,7 +167,7 @@
 
 .tooltip2 {
   position: absolute;
-  top: 100%;
+  top: 10%;
   right: 100vh;
   transform: translateX(-50%);
   opacity: 0;
@@ -185,7 +185,8 @@
 }
 
 .tooltip-container-resume:hover .tooltip2 {
-  right: 30px;
+  /* right: 65px; */
+  right: 75%;
   opacity: 1;
   visibility: visible;
   background: lightskyblue;
@@ -203,7 +204,7 @@
 
 .tooltip3 {
   position: absolute;
-  top: 100%;
+  top: 10%;
   right: -100vh;
   transform: translateX(-50%);
   opacity: 0;
@@ -222,7 +223,7 @@
 }
 
 .tooltip-container-resume:hover .tooltip3 {
-  right: -30px;
+  right: -70px;
   opacity: 1;
   visibility: visible;
   background: lightgreen;
