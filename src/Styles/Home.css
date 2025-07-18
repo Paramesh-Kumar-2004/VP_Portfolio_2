@@ -202,32 +202,10 @@
   fill: #fff;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .tooltip3 {
+.tooltip3 {
   position: absolute;
   top: 100%;
-  right: 100vh;
+  right: -100vh;
   transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
@@ -239,13 +217,13 @@
     opacity 0.3s,
     visibility 0.3s,
     background 0.3s,
-    right 1s;
+    right 0.5s;
   z-index: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .tooltip-container-resume:hover .tooltip3 {
-  right: 60px;
+  right: -30px;
   opacity: 1;
   visibility: visible;
   background: #fff;
@@ -259,4 +237,4 @@
 .tooltip-container-resume:hover .tooltip3:hover {
   background: #1db954;
   fill: #fff;
-} */
+}
