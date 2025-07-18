@@ -172,15 +172,14 @@
   transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
-  background: #03a9f4;
-  fill: #00001a;
+  fill: black;
   padding: 10px;
   border-radius: 50px;
   transition:
     opacity 0.3s,
     visibility 0.3s,
     background 0.3s,
-    right 0.5s;
+    right 1s;
   z-index: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -189,7 +188,7 @@
   right: 30px;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: lightskyblue;
   transform: translate(-50%, -5px);
   border-radius: 50px;
   display: flex;
@@ -198,8 +197,8 @@
 }
 
 .tooltip-container-resume:hover .tooltip2:hover {
-  background: #1a1a1a;
-  fill: #fff;
+  background: #03a9f4;
+  fill: white;
 }
 
 .tooltip3 {
@@ -217,7 +216,7 @@
     opacity 0.3s,
     visibility 0.3s,
     background 0.3s,
-    right 0.5s;
+    right 1s;
   z-index: 1;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -226,7 +225,7 @@
   right: -30px;
   opacity: 1;
   visibility: visible;
-  background: #fff;
+  background: lightgreen;
   transform: translate(-50%, -5px);
   border-radius: 50px;
   display: flex;
