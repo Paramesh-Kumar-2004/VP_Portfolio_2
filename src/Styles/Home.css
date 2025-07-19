@@ -141,8 +141,8 @@
 .tooltip2 {
   position: absolute;
   top: 10%;
-  right: 100vw;
-  /* right: -50px; */
+  /* right: 100vw; */
+  right: -50px;
   transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
