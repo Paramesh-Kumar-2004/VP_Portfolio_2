@@ -54,6 +54,9 @@
 }
 
 
+
+/* Resume Styling */
+
 #Resume {
   position: relative;
   cursor: pointer;
@@ -97,36 +100,6 @@
   color: white;
 }
 
-
-@keyframes slideshow {
-  0% {
-    background-image: url("../Images/Wallpaper_1.jpg");
-  }
-
-  20% {
-    background-image: url("../Images/Wallpaper_2.jpg");
-  }
-
-  40% {
-    background-image: url("../Images/Wallpaper_3.jpg");
-  }
-
-  60% {
-    background-image: url("../Images/Wallpaper_4.jpg");
-  }
-
-  80% {
-    background-image: url("../Images/Wallpaper_5.jpg");
-  }
-
-  100% {
-    background-image: url("../Images/Wallpaper_1.jpg");
-  }
-}
-
-
-
-
 .text {
   font-size: 20px;
   background: linear-gradient(gold, yellow);
@@ -168,7 +141,8 @@
 .tooltip2 {
   position: absolute;
   top: 10%;
-  right: 100vh;
+  right: 100vw;
+  /* right: -50px; */
   transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
@@ -205,7 +179,8 @@
 .tooltip3 {
   position: absolute;
   top: 10%;
-  right: -100vh;
+  right: -100vw;
+  /* right: 40px; */
   transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
@@ -237,4 +212,33 @@
 .tooltip-container-resume:hover .tooltip3:hover {
   background: #1db954;
   fill: #fff;
+}
+
+
+
+
+@keyframes slideshow {
+  0% {
+    background-image: url("../Images/Wallpaper_1.jpg");
+  }
+
+  20% {
+    background-image: url("../Images/Wallpaper_2.jpg");
+  }
+
+  40% {
+    background-image: url("../Images/Wallpaper_3.jpg");
+  }
+
+  60% {
+    background-image: url("../Images/Wallpaper_4.jpg");
+  }
+
+  80% {
+    background-image: url("../Images/Wallpaper_5.jpg");
+  }
+
+  100% {
+    background-image: url("../Images/Wallpaper_1.jpg");
+  }
 }
