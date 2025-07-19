@@ -179,8 +179,8 @@
 .tooltip3 {
   position: absolute;
   top: 10%;
-  right: -100vw;
-  /* right: 40px; */
+  /* right: -100vw; */
+  right: 40px;
   transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
