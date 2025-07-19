@@ -79,7 +79,7 @@
   border: 1px solid purple;
   box-shadow: inset 0 0 10px darkmagenta;
   transform: rotateZ(360deg);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .tooltip-container-resume .text {
