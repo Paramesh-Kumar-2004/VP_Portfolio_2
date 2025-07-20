@@ -41,7 +41,7 @@
 
 #Role span {
   color: magenta;
-  background: linear-gradient(red, pink);
+  background: linear-gradient(skyblue, yellow);
   background-clip: text;
   color: transparent;
 }
