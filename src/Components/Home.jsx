@@ -46,7 +46,7 @@ function Home() {
 
 
         <div className="tooltip-container-resume">
-          <span className="text">
+          <span className="text-Resume">
             Resume
           </span>
 

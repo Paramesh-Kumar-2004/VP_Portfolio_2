@@ -57,9 +57,10 @@
 
 /* Resume Styling */
 
-.text {
+.text-Resume {
   font-size: 20px;
   background: linear-gradient(gold, yellow);
+  background: palegreen;
   background-clip: text;
   color: transparent;
 }
