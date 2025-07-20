@@ -54,16 +54,15 @@
         background: lightblue;
         background-clip: text;
         color: transparent;
-        text-shadow: 0 0 5px lightblue;
         animation: fadeSlideIn 1s ease-out forwards;
     }
 
     .lists a:hover {
         color: rgb(0, 183, 255);
-        text-shadow: 0 0 4px darkblue, 0 0 4px darkblue;
         transition: all 126ms ease-in-out;
         text-decoration-line: underline;
         text-decoration-color: rgb(0, 183, 255);
+        text-shadow: 0 0 4px darkblue, 0 0 4px darkorchid;
     }
 
     .lists {
