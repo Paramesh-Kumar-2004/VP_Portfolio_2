@@ -79,7 +79,7 @@
 .tooltip-container-resume:hover {
   border: 1px solid purple;
   box-shadow: inset 0 0 10px darkmagenta;
-  transform: rotateZ(360deg);
+  /* transform: rotateZ(360deg); */
   transition: all 0.2s ease-in-out;
 }
 
@@ -100,7 +100,7 @@
   position: absolute;
   top: 10%;
   /* right: 100vw; */
-  right: -50px;
+  right: 100px;
   transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
@@ -138,7 +138,7 @@
   position: absolute;
   top: 10%;
   /* right: -100vw; */
-  right: 40px;
+  right: -100px;
   transform: translateX(-50%);
   opacity: 0;
   visibility: hidden;
