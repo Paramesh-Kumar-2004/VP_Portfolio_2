@@ -51,7 +51,7 @@ function Home() {
           </span>
 
           <a href={Resume} target='-b'>
-            <span className="tooltip2">
+            <span className="tooltip3">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="26"
@@ -66,7 +66,7 @@ function Home() {
           </a>
 
           <a href={Resume} download>
-            <span className="tooltip3">
+            <span className="tooltip2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="26"

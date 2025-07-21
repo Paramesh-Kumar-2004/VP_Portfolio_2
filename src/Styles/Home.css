@@ -118,7 +118,7 @@
 
 .tooltip-container-resume:hover .tooltip2 {
   /* right: 65px; */
-  right: -75%;
+  right: -79%;
   opacity: 1;
   visibility: visible;
   background: lightskyblue;
@@ -156,7 +156,7 @@
 }
 
 .tooltip-container-resume:hover .tooltip3 {
-  right: -70px;
+  right: 75%;
   opacity: 1;
   visibility: visible;
   background: lightgreen;
