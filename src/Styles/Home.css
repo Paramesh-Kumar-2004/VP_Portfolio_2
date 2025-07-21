@@ -117,8 +117,7 @@
 }
 
 .tooltip-container-resume:hover .tooltip2 {
-  /* right: 65px; */
-  right: -79%;
+  right: -69px;
   opacity: 1;
   visibility: visible;
   background: lightskyblue;
@@ -156,7 +155,7 @@
 }
 
 .tooltip-container-resume:hover .tooltip3 {
-  right: 75%;
+  right: 65px;
   opacity: 1;
   visibility: visible;
   background: lightgreen;
@@ -173,6 +172,15 @@
 }
 
 
+@media (max-width:768px) {
+  .tooltip-container-resume:hover .tooltip3 {
+    right: 75px;
+  }
+
+  .tooltip-container-resume:hover .tooltip2 {
+    right: -70px;
+  }
+}
 
 
 @keyframes slideshow {
