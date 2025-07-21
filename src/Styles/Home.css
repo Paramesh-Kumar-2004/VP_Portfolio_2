@@ -171,18 +171,6 @@
   fill: #fff;
 }
 
-
-@media (max-width:768px) {
-  .tooltip-container-resume:hover .tooltip3 {
-    right: 75px;
-  }
-
-  .tooltip-container-resume:hover .tooltip2 {
-    right: -70px;
-  }
-}
-
-
 @keyframes slideshow {
   0% {
     background-image: url("../Images/Wallpaper_1.jpg");
@@ -206,5 +194,17 @@
 
   100% {
     background-image: url("../Images/Wallpaper_1.jpg");
+  }
+}
+
+
+
+@media (max-width:768px) {
+  .tooltip-container-resume:hover .tooltip3 {
+    right: 75px;
+  }
+
+  .tooltip-container-resume:hover .tooltip2 {
+    right: -70px;
   }
 }
