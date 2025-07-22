@@ -17,6 +17,19 @@
 <body>
 
   <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
+
+  <script>
+    function handleTabFocus() {
+      document.title = ""; // Active Tab Title
+    }
+    function handleTabBlur() {
+      document.title = "Come & Check Updates"; // Inactive Tab Title
+    }
+
+    window.addEventListener("blur", handleTabBlur);
+    window.addEventListener("focus", handleTabFocus);
+  </script>
+
   <div id="root"></div>
 
 </body>
