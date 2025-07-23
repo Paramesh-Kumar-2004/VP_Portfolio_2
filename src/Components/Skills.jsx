@@ -18,8 +18,8 @@ function Skills() {
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Intermediate "} IdName={"Python"} />
-          <span><h3>Python</h3></span>
+          <Skills_Animation Level={"Intermediate "} IdName={"Java"} />
+          <span><h3>Java</h3></span>
         </div>
 
         <div className='Cards'>
