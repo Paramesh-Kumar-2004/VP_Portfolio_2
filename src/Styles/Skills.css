@@ -58,6 +58,10 @@
     background-image: url("../Images/Python.jpeg");
 }
 
+#Java{
+    background-image: url("../Images/Java.png");
+}
+
 #Pytest {
     background-image: url("../Images/Pytest_Selenium.png");
 }
