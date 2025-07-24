@@ -17,6 +17,8 @@
 .Cards {
     height: 180px;
     width: 226px;
+    height: 180px;
+    width: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
