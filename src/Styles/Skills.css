@@ -15,8 +15,8 @@
 }
 
 .Cards {
-    height: 180px;
-    width: 180px;
+    height: 160px;
+    width: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,8 +29,8 @@
 
 .Circle {
     position: relative;
-    height: 114px;
-    width: 114px;
+    height: 104px;
+    width: 104px;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.3),
         0 0 5px rgba(255, 255, 255, 0.5),

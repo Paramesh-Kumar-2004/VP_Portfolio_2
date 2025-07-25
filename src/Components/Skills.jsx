@@ -67,6 +67,16 @@ function Skills() {
           <span><h3>Mongo DB</h3></span>
         </div>
 
+        <div className='Cards'>
+          <Skills_Animation Level={"Basic"} IdName={"MongoDB"} />
+          <span><h3>Selenium</h3></span>
+        </div>
+
+        <div className='Cards'>
+          <Skills_Animation Level={"Basic"} IdName={"MongoDB"} />
+          <span><h3>Docker</h3></span>
+        </div>
+
       </div>
 
     </div>
