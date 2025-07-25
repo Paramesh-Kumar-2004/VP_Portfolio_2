@@ -18,7 +18,7 @@ function Skills() {
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Intermediate "} IdName={"Java"} />
+          <Skills_Animation Level={"Java "} IdName={"Java"} />
           <span><h3>Java</h3></span>
         </div>
 
