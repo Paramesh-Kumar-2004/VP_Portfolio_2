@@ -68,12 +68,12 @@ function Skills() {
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Basic"} IdName={"MongoDB"} />
+          <Skills_Animation Level={"Basic"} IdName={"Selenium"} />
           <span><h3>Selenium</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Basic"} IdName={"MongoDB"} />
+          <Skills_Animation Level={"Basic"} IdName={"Docker"} />
           <span><h3>Docker</h3></span>
         </div>
 
