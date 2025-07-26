@@ -3,14 +3,14 @@ import "../../Styles/Skills.css";
 
 
 
-function Skills_Animation({ Level, IdName }) {
+function Skills_Animation({ Name, IdName }) {
     return (
         <div className='Cards'>
             <div id={IdName} className='Circle'>
                 <span className="bubble layer1"></span>
                 <span className="bubble layer2"></span>
                 <span className="bubble layer3"></span>
-                <p className="circle-text">{Level}</p>
+                <p className="circle-text">{Name}</p>
             </div>
         </div>
     );
