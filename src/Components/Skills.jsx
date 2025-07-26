@@ -13,68 +13,68 @@ function Skills() {
       <div id='Skills_Card'>
 
         <div className='Cards'>
-          <Skills_Animation Name={"Intermediate"} IdName={"Python"} />
-          <span><h3>Python</h3></span>
+          <Skills_Animation Name={"Python"} IdName={"Python"} />
+          {/* <span><h3>Python</h3></span> */}
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Name={"Intermediate"} IdName={"Java"} />
-          <span><h3>Java</h3></span>
+          <Skills_Animation Name={"Java"} IdName={"Java"} />
+          {/* <span><h3>Java</h3></span> */}
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Name={"Intermediate"} IdName={"Pytest"} />
-          <span><h3>Pytest & Selenium</h3></span>
+          <Skills_Animation Name={"Selenium"} IdName={"Selenium"} />
+          {/* <span><h3>Pytest & Selenium</h3></span> */}
         </div>
 
         <div className='Cards'>
           <Skills_Animation Name={"Intermediate"} IdName={"HTML_CSS"} />
-          <span><h3>HTML & CSS</h3></span>
+          {/* <span><h3>HTML & CSS</h3></span> */}
         </div>
 
         <div className='Cards'>
           <Skills_Animation Name={"Intermediate"} IdName={"Java_Script"} />
-          <span><h3>Java Script</h3></span>
+          {/* <span><h3>Java Script</h3></span> */}
         </div>
 
         <div className='Cards'>
           <Skills_Animation Name={"Intermediate"} IdName={"React"} />
-          <span><h3>React JS</h3></span>
+          {/* <span><h3>React JS</h3></span> */}
         </div>
 
         <div className='Cards'>
           <Skills_Animation Name={"Intermediate"} IdName={"NodeJs"} />
-          <span><h3>Node JS</h3></span>
+          {/* <span><h3>Node JS</h3></span> */}
         </div>
 
         <div className='Cards'>
           <Skills_Animation Name={"Intermediate"} IdName={"ExpressJs"} />
-          <span><h3>Express JS</h3></span>
+          {/* <span><h3>Express JS</h3></span> */}
         </div>
 
         <div className='Cards'>
           <Skills_Animation Name={"Basic"} IdName={"Git_Docker"} />
-          <span><h3>Git & Docker</h3> </span>
+          {/* <span><h3>Git & Docker</h3> </span> */}
         </div>
 
         <div className='Cards'>
           <Skills_Animation Name={"Basic"} IdName={"MYSQL"} />
-          <span><h3>MYSQL</h3></span>
+          {/* <span><h3>MYSQL</h3></span> */}
         </div>
 
         <div className='Cards'>
           <Skills_Animation Name={"Basic"} IdName={"MongoDB"} />
-          <span><h3>Mongo DB</h3></span>
+          {/* <span><h3>Mongo DB</h3></span> */}
         </div>
 
         <div className='Cards'>
           <Skills_Animation Name={"Basic"} IdName={"Selenium"} />
-          <span><h3>Selenium</h3></span>
+          {/* <span><h3>Selenium</h3></span> */}
         </div>
 
         <div className='Cards'>
           <Skills_Animation Name={"Basic"} IdName={"Docker"} />
-          <span><h3>Docker</h3></span>
+          {/* <span><h3>Docker</h3></span> */}
         </div>
 
       </div>

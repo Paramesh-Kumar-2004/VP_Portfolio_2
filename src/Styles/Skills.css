@@ -23,7 +23,7 @@
     align-items: center;
 }
 
-.Cards h3{
+.Cards h3 {
     font-size: medium;
 }
 
@@ -57,12 +57,13 @@
     background-image: url("../Images/Python.jpeg");
 }
 
-#Java{
+#Java {
     background-image: url("../Images/Java.png");
 }
 
-#Pytest {
-    background-image: url("../Images/Pytest_Selenium.png");
+#Selenium {
+    background-image: url("../Images/Selenium.webp");
+    background-size: 100%;
 }
 
 #HTML_CSS {
