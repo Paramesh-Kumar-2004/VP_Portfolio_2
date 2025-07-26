@@ -13,42 +13,42 @@ function Skills() {
       <div id='Skills_Card'>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Intermediate "} IdName={"Python"} />
+          <Skills_Animation Level={"Intermediate"} IdName={"Python"} />
           <span><h3>Python</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Java "} IdName={"Java"} />
+          <Skills_Animation Level={"Intermediate"} IdName={"Java"} />
           <span><h3>Java</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Intermediate "} IdName={"Pytest"} />
+          <Skills_Animation Level={"Intermediate"} IdName={"Pytest"} />
           <span><h3>Pytest & Selenium</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Intermediate "} IdName={"HTML_CSS"} />
+          <Skills_Animation Level={"Intermediate"} IdName={"HTML_CSS"} />
           <span><h3>HTML & CSS</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Intermediate "} IdName={"Java_Script"} />
+          <Skills_Animation Level={"Intermediate"} IdName={"Java_Script"} />
           <span><h3>Java Script</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Intermediate "} IdName={"React"} />
+          <Skills_Animation Level={"Intermediate"} IdName={"React"} />
           <span><h3>React JS</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Intermediate "} IdName={"NodeJs"} />
+          <Skills_Animation Level={"Intermediate"} IdName={"NodeJs"} />
           <span><h3>Node JS</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Intermediate "} IdName={"ExpressJs"} />
+          <Skills_Animation Level={"Intermediate"} IdName={"ExpressJs"} />
           <span><h3>Express JS</h3></span>
         </div>
 
