@@ -68,7 +68,7 @@ function Skills() {
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Name={"Pytest"} IdName={"Selenium"} />
+          <Skills_Animation Name={"Pytest"} IdName={"Pytest"} />
           {/* <span><h3>Selenium</h3></span> */}
         </div>
 

@@ -105,6 +105,14 @@
     background-image: url("../Images/MongoDB.png");
 }
 
+#Pytest{
+    background-image: url("../Images/images.png");
+}
+
+#Docker{
+    background-image: url("../Images/Docker.png");
+}
+
 /* On hover, hide background and show text */
 .Circle:hover {
     background-image: none !important;
