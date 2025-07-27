@@ -49,7 +49,7 @@
 }
 
 .Circle:hover {
-    box-shadow: 0 0 26px 3px skyblue;
+    box-shadow: 0 0 26px skyblue, inset 0 0 26px darkslategrey;
     transition: all 300ms ease-in-out;
 }
 
