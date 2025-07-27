@@ -69,7 +69,7 @@ input:focus {
 }
 
 
-/* button {
+button {
     width: 100%;
     padding: 12px;
     background-color: #007BFF;
@@ -82,6 +82,3 @@ input:focus {
     transition: background 0.3s ease;
 }
 
-button:hover {
-    background-color: #0056b3;
-} */
