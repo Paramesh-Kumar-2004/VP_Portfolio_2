@@ -78,7 +78,7 @@
 }
 
 #React {
-    background-image: url("../Images/images.jpeg");
+    background-image: url("../Images/ReactJs.jpeg");
 }
 
 #NodeJs {
@@ -93,7 +93,8 @@
 #Git {
     background-image: url("../Images/Git.webp");
 }
-#Git .circle-text{
+
+#Git .circle-text {
     font-size: 14px;
 }
 
@@ -105,11 +106,11 @@
     background-image: url("../Images/MongoDB.png");
 }
 
-#Pytest{
-    background-image: url("../Images/images.png");
+#Pytest {
+    background-image: url("../Images/Pytest.png");
 }
 
-#Docker{
+#Docker {
     background-image: url("../Images/Docker.png");
 }
 
@@ -172,6 +173,7 @@
         transform: translateY(0px);
         opacity: 0.3;
     }
+
 
     to {
         transform: translateY(-10px);
