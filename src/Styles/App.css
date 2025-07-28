@@ -12,8 +12,8 @@
     padding: 65px 65px 0px 65px;
     text-shadow: 0 0 14px skyblue, 0 0 14px #0ff;
     justify-self: center;
+    cursor: pointer;
 }
-
 
 #Title:hover{
     scale: 1.1;
