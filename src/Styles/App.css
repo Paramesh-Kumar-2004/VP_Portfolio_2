@@ -14,6 +14,7 @@
     text-shadow: 0 0 14px skyblue, 0 0 14px #0ff;
     justify-self: center;
 }
+
 #Title:hover{
     scale: 1.1;
 }
