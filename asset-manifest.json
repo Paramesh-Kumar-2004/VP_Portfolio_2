@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/VP_Portfolio_2/static/css/main.f4b46d94.css",
-    "main.js": "/VP_Portfolio_2/static/js/main.a86bc700.js",
+    "main.css": "/VP_Portfolio_2/static/css/main.f9d08d63.css",
+    "main.js": "/VP_Portfolio_2/static/js/main.2a3cfee5.js",
     "static/media/Wallpaper_4.jpg": "/VP_Portfolio_2/static/media/Wallpaper_4.ed3531a5a2983dec55d3.jpg",
     "static/media/Wallpaper_2.jpg": "/VP_Portfolio_2/static/media/Wallpaper_2.bd0213ae020d82a34751.jpg",
     "static/media/Wallpaper_3.jpg": "/VP_Portfolio_2/static/media/Wallpaper_3.524007b60fdd3f6191d1.jpg",
@@ -13,16 +13,17 @@
     "static/media/E-Learning_VR_1.jpg": "/VP_Portfolio_2/static/media/E-Learning_VR_1.4f7dd85b3a98c7f9f2ae.jpg",
     "static/media/Pyro_Patrol.jpg": "/VP_Portfolio_2/static/media/Pyro_Patrol.039fdd4749c72703e083.jpg",
     "static/media/AI_Assistant_1.jpg": "/VP_Portfolio_2/static/media/AI_Assistant_1.451888631d8f7f3c8851.jpg",
-    "static/media/Pytest_Selenium.png": "/VP_Portfolio_2/static/media/Pytest_Selenium.aecd49e20b59d5e538a9.png",
+    "static/media/Java.png": "/VP_Portfolio_2/static/media/Java.0dbe756acd76cd4d98a8.png",
     "static/media/OTA.jpg": "/VP_Portfolio_2/static/media/OTA.50c2da3958395d40d46a.jpg",
     "static/media/VP.jpeg": "/VP_Portfolio_2/static/media/VP.deb110340f7faf513510.jpeg",
-    "static/media/ReactJs.png": "/VP_Portfolio_2/static/media/ReactJs.4bbbd007b49a6a9ba8e9.png",
+    "static/media/Selenium.webp": "/VP_Portfolio_2/static/media/Selenium.416746f41c1b6b7ce073.webp",
+    "static/media/Git.webp": "/VP_Portfolio_2/static/media/Git.302d49d51800fe5fac71.webp",
     "index.html": "/VP_Portfolio_2/index.html",
-    "main.f4b46d94.css.map": "/VP_Portfolio_2/static/css/main.f4b46d94.css.map",
-    "main.a86bc700.js.map": "/VP_Portfolio_2/static/js/main.a86bc700.js.map"
+    "main.f9d08d63.css.map": "/VP_Portfolio_2/static/css/main.f9d08d63.css.map",
+    "main.2a3cfee5.js.map": "/VP_Portfolio_2/static/js/main.2a3cfee5.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4b46d94.css",
-    "static/js/main.a86bc700.js"
+    "static/css/main.f9d08d63.css",
+    "static/js/main.2a3cfee5.js"
   ]
 }
