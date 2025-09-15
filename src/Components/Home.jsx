@@ -30,7 +30,6 @@ function Home() {
   return (
     <>
       <div id='Home'>
-        <Title titleName="Home" />
 
         <div id='Home_Content'>
           <h1>Hi, It's <b>Paramesh Kumar S</b></h1>

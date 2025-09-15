@@ -1,9 +1,13 @@
 import React from 'react'
 import "../Styles/About.css"
+import Title from "./Utils/Title"
+
+
 
 function About() {
   return (
     <div id='About'>
+
 
       <h1 id='Title'>ABOUT</h1>
 
