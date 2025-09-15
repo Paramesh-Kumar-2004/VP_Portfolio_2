@@ -21,12 +21,12 @@ function Header() {
         </h1>
 
         <ul id="links" className={openMenu ? 'show' : 'hide'}>
-          <li className='lists'><a onClick={ChangeMenu} href="#Main_Home_Div">Home</a></li>
-          <li className='lists'><a onClick={ChangeMenu} href="#Main_About_Div">About</a></li>
-          <li className='lists'><a onClick={ChangeMenu} href="#Main_Skill_Div">Skills</a></li>
-          <li className='lists'><a onClick={ChangeMenu} href="#Main_Project_Div">Projects</a></li>
-          <li className='lists'><a onClick={ChangeMenu} href="#Main_Experience_Div">Experience</a></li>
-          <li className='lists'><a onClick={ChangeMenu} href="#Main_Contact_Div">Contact</a></li>
+          <li className='lists'><a onClick={ChangeMenu} href="#Home">Home</a></li>
+          <li className='lists'><a onClick={ChangeMenu} href="#About">About</a></li>
+          <li className='lists'><a onClick={ChangeMenu} href="#Skills">Skills</a></li>
+          <li className='lists'><a onClick={ChangeMenu} href="#Projects">Projects</a></li>
+          <li className='lists'><a onClick={ChangeMenu} href="#Experience">Experience</a></li>
+          <li className='lists'><a onClick={ChangeMenu} href="#Contact">Contact</a></li>
         </ul>
 
       </nav>

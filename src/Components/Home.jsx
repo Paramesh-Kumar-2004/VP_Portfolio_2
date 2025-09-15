@@ -29,7 +29,7 @@ function Home() {
 
   return (
     <>
-      <div id='Main_Home_Div'>
+      <div id='Home'>
         <Title titleName="Home" />
 
         <div id='Home_Content'>

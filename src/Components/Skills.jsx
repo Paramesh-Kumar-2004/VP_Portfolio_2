@@ -6,7 +6,7 @@ import "../Styles/Skills.css"
 
 function Skills() {
   return (
-    <div id='Main_Skill_Div'>
+    <div id='Skills'>
 
       <h1 id='Title'>Skills</h1>
 

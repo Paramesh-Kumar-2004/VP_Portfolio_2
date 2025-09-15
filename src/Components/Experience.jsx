@@ -25,7 +25,7 @@ function Experience() {
         },
     ];
     return (
-        <div id='Main_Experience_Div'>
+        <div id='Experience'>
             <div>
                 <h1 id='Title'>Experience</h1>
 

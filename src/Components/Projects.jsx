@@ -6,7 +6,7 @@ import "../Styles/Projects.css"
 
 function Projects() {
   return (
-    <div id='Main_Project_Div'>
+    <div id='Projects'>
       <h1 id='Title'>Projects</h1>
       <div id='Projects_List'>
 
