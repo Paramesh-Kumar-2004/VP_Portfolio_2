@@ -2,10 +2,10 @@ import React from 'react'
 import { Helmet } from 'react-helmet-async'
 
 
-function Title({titleName}) {
+function Title({ titleName }) {
     return (
         <Helmet>
-            <title>{titleName}</title>
+            <title>VP - {titleName}</title>
         </Helmet>
     )
 }
