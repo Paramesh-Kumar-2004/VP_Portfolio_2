@@ -5,6 +5,7 @@ import LinkedIn from './Social_Media/LinkedIn'
 import Github from './Social_Media/GitHub'
 import "../Styles/Home.css"
 import Resume from "../Images/VP_Resume.pdf"
+import Title from './Utils/Title'
 
 
 function Home() {
@@ -29,6 +30,7 @@ function Home() {
   return (
     <>
       <div id='Main_Home_Div'>
+        <Title titleName="VP" />
 
         <div id='Home_Content'>
           <h1>Hi, It's <b>Paramesh Kumar S</b></h1>
