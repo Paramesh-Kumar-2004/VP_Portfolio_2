@@ -29,9 +29,9 @@
 
 #Contents h3 {
     padding: 14px;
-    color: whitesmoke;
+    color: white;
     line-height: 1.4;
-    text-shadow: 4px 4px 3px gray;
+    /* text-shadow: 4px 4px 3px gray; */
 }
 
 #MyImg {
