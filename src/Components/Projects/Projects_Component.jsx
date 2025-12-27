@@ -11,7 +11,9 @@ function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Descr
             <div id="ProjectNameDiv">
                 <h2 className="text" id='Project_Title'>{ProjectName}</h2>
             </div>
-            <p className="description" id='Project_Description'>&#160;&#160;&#160;{Description}</p>
+            <p className="description" id='Project_Description'>
+                &#160;&#160;&#160;{Description}
+            </p>
             <p>{Project_Domain}</p>
             <a href={Project_Link} className="source" target='_b'>Click For Source Code</a>
         </div >
