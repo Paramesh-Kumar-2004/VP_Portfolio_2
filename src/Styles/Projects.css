@@ -120,34 +120,57 @@
 
 #OTA {
     background-image: url("../Images/OTA.jpg");
+}
+
+.card:hover #OTA {
+    transition: all 1s ease-in-out;
     box-shadow: 0 0 14px cyan, 0 0 14px skyblue;
 }
 
 #SIL_Automation {
     background-image: url("../Images/SIL\ Automation.jpg");
+}
+
+.card:hover #SIL_Automation {
+    transition: all 1s ease-in-out;
     box-shadow: 0 0 14px wheat, 0 0 14px white;
 }
 
 #Pyro_Patrol {
     background-image: url("../Images/Project_Img/Pyro_Patrol.jpg");
-    box-shadow: 0px 10px 50px orangered, 0px -10px 24px orange;
+}
+
+.card:hover #Pyro_Patrol {
+    transition: all 1s ease-in-out;
+    box-shadow: 0px 0 14px orangered, 0px -0 14px orange;
 }
 
 #Brain_Friendly {
     background-image: url("../Images/Project_Img/E-Learning_VR_1.jpg");
-    box-shadow: 0px 10px 50px rgb(108, 108, 255), 0px -10px 24px rgb(135, 135, 226);
+}
+
+.card:hover #Brain_Friendly {
+    transition: all 1s ease-in-out;
+    box-shadow: 0px 0 14px rgb(108, 108, 255), 0px -0 14px rgb(135, 135, 226);
 }
 
 #Text_Based_Game {
     background-image: url("../Images/Project_Img/Text_Game_2.jpg");
-    box-shadow: 0px 10px 50px darkslategray, 0px -10px 24px gray;
+}
+
+.card:hover #Text_Based_Game {
+    transition: all 1s ease-in-out;
+    box-shadow: 0px 0 14px rgb(91, 209, 209), 0px -0 14px rgb(84, 55, 212);
 }
 
 #AI_Voice_Assistant {
     background-image: url("../Images/Project_Img/AI_Assistant_1.jpg");
-    box-shadow: 0px 10px 50px rgb(108, 108, 255), 0px -10px 24px rgb(64, 64, 250);
 }
 
+.card:hover #AI_Voice_Assistant {
+    transition: all 1s ease-in-out;
+    box-shadow: 0px 0 14px rgb(108, 108, 255), 0px -0 14px rgb(64, 64, 250);
+}
 
 
 
