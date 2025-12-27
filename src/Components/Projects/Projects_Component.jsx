@@ -13,8 +13,7 @@ function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Descr
             </div>
             <p className="description" id='Project_Description'>&#160;&#160;&#160;{Description}</p>
             <p>{Project_Domain}</p>
-            <p>Click For Source Code</p>
-            <p className="source">Click For Source Code</p>
+            <a href={Project_Link} className="source" target='_b'>Click For Source Code</a>
         </div >
 
     );

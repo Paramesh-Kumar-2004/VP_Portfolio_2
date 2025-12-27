@@ -1,7 +1,7 @@
 #Projects_List {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 16px;
     box-sizing: border-box;
 }
@@ -16,6 +16,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
     position: relative;
     overflow: hidden;
@@ -55,7 +56,6 @@
 .card .img {
     width: 100%;
     height: 220px;
-
     border-radius: 14px;
     background-position: center;
     background-size: cover;
@@ -97,7 +97,7 @@
     box-shadow: inset 3px 3px 14px 3px skyblue;
 }
 
-.description{
+.description {
     font-weight: bold;
     color: white;
     font-size: 16px;

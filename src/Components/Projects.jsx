@@ -16,13 +16,13 @@ function Projects() {
           Project_Link='https://github.com/Paramesh-Kumar-2004/OTA'
         />
 
-        {/* <Projects_Component ProjectName='SIL Automation' ID_Name='SIL_Automation'
+        <Projects_Component ProjectName='SIL Automation' ID_Name='SIL_Automation'
           Description='Built a frontend interface using HTML that enables users to upload automation test script files and trigger their execution in a testing environment. The interface supports straightforward script file selection and initiation of automated tests, providing a simple and effective way to manage and run test scripts from the browser.'
           Project_Domain='Frontend Development'
           Project_Link='https://www.google.com'
         />
 
-        <Projects_Component ProjectName='Pyro Patrol' ID_Name='Pyro_Patrol'
+        {/* <Projects_Component ProjectName='Pyro Patrol' ID_Name='Pyro_Patrol'
           Description='Designed and developed a fire-detecting autonomous robot using IR sensors and actuators to identify and extinguish fire without human intervention. Programmed using Embedded C/C++ on microcontroller-based hardware, the robot continuously scans its environment, detects heat or flame sources, and activates an extinguishing mechanism, demonstrating intelligent response and automation in fire safety applications.'
           Project_Domain='IOT'
           Project_Link='https://www.google.com'
