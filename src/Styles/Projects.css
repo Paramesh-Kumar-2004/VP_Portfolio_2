@@ -123,7 +123,7 @@
 }
 
 .card:hover #OTA {
-    transition: all 1s ease-in-out;
+    transition: all 500ms ease-in-out;
     box-shadow: 0 0 14px cyan, 0 0 14px skyblue;
 }
 
@@ -132,7 +132,7 @@
 }
 
 .card:hover #SIL_Automation {
-    transition: all 1s ease-in-out;
+    transition: all 500ms ease-in-out;
     box-shadow: 0 0 14px wheat, 0 0 14px white;
 }
 
@@ -141,7 +141,7 @@
 }
 
 .card:hover #Pyro_Patrol {
-    transition: all 1s ease-in-out;
+    transition: all 500ms ease-in-out;
     box-shadow: 0px 0 14px orangered, 0px -0 14px orange;
 }
 
@@ -150,7 +150,7 @@
 }
 
 .card:hover #Brain_Friendly {
-    transition: all 1s ease-in-out;
+    transition: all 500ms ease-in-out;
     box-shadow: 0px 0 14px rgb(108, 108, 255), 0px -0 14px rgb(135, 135, 226);
 }
 
@@ -159,7 +159,7 @@
 }
 
 .card:hover #Text_Based_Game {
-    transition: all 1s ease-in-out;
+    transition: all 500ms ease-in-out;
     box-shadow: 0px 0 14px rgb(91, 209, 209), 0px -0 14px rgb(84, 55, 212);
 }
 
@@ -168,7 +168,7 @@
 }
 
 .card:hover #AI_Voice_Assistant {
-    transition: all 1s ease-in-out;
+    transition: all 500ms ease-in-out;
     box-shadow: 0px 0 14px rgb(108, 108, 255), 0px -0 14px rgb(64, 64, 250);
 }
 
