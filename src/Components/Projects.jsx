@@ -16,7 +16,7 @@ function Projects() {
           Project_Link='https://github.com/Paramesh-Kumar-2004/OTA'
         />
 
-        <Projects_Component ProjectName='SIL Automation' ID_Name='SIL_Automation'
+        {/* <Projects_Component ProjectName='SIL Automation' ID_Name='SIL_Automation'
           Description='Built a frontend interface using HTML that enables users to upload automation test script files and trigger their execution in a testing environment. The interface supports straightforward script file selection and initiation of automated tests, providing a simple and effective way to manage and run test scripts from the browser.'
           Project_Domain='Frontend Development'
           Project_Link='https://www.google.com'
@@ -44,7 +44,7 @@ function Projects() {
           Description='Developed a voice-based personal assistant using Python, integrating pyttsx3, datetime, and pywhatkit libraries to simulate an AI named JARVIS. The assistant features user authentication via password input, time-based greetings, and the ability to search Google or play YouTube videos based on voice-triggered or typed input. Implemented role-based responses for different users and used pyttsx3 for text-to-speech interaction. Demonstrated core Python skills including input handling, conditional logic, function design, and real-time task automation.'
           Project_Domain='Python Automation'
           Project_Link='https://github.com/Paramesh-Kumar-2004/Voice_Assistant-Search-Tool'
-        />
+        /> */}
 
       </div>
     </div>

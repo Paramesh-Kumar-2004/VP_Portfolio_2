@@ -45,7 +45,6 @@ function Home() {
           <Github />
         </div>
 
-
         <div className="tooltip-container-resume">
           <span className="text-Resume">
             Resume
