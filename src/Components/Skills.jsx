@@ -23,11 +23,6 @@ function Skills() {
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Name={"Selenium"} IdName={"Selenium"} />
-          {/* <span><h3>Pytest & Selenium</h3></span> */}
-        </div>
-
-        <div className='Cards'>
           <Skills_Animation Name={"HTML & CSS"} IdName={"HTML_CSS"} />
           {/* <span><h3>HTML & CSS</h3></span> */}
         </div>
@@ -65,6 +60,11 @@ function Skills() {
         <div className='Cards'>
           <Skills_Animation Name={"MongoDB"} IdName={"MongoDB"} />
           {/* <span><h3>Mongo DB</h3></span> */}
+        </div>
+
+        <div className='Cards'>
+          <Skills_Animation Name={"Selenium"} IdName={"Selenium"} />
+          {/* <span><h3>Pytest & Selenium</h3></span> */}
         </div>
 
         <div className='Cards'>
