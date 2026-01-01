@@ -3,6 +3,7 @@ import { useSnackbar } from 'notistack';
 import '../Styles/Contact.css';
 
 
+
 function Contact() {
 
   const { enqueueSnackbar } = useSnackbar();
@@ -53,10 +54,10 @@ function Contact() {
       })
     }
 
-    console.log(data);
-    console.log('User Name :', formData.UserName);
-    console.log('User Email :', formData.UserEmail);
-    console.log('Message :', formData.Message);
+    // console.log(data);
+    // console.log('User Name :', formData.UserName);
+    // console.log('User Email :', formData.UserEmail);
+    // console.log('Message :', formData.Message);
 
     setFormData({
       UserName: '',
