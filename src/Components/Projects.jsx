@@ -22,14 +22,14 @@ function Projects() {
           Project_Link='https://www.google.com'
         />
 
-        <Projects_Component ProjectName='Pyro Patrol' ID_Name='Pyro_Patrol'
-          Description='Designed and developed a fire-detecting autonomous robot using IR sensors and actuators to identify and extinguish fire without human intervention. Programmed using Embedded C/C++ on microcontroller-based hardware, the robot continuously scans its environment, detects heat or flame sources, and activates an extinguishing mechanism, demonstrating intelligent response and automation in fire safety applications.'
-          Project_Domain='IOT'
+        <Projects_Component ProjectName='Task Management' ID_Name='Task_Management'
+          Description='Developed a full-stack Task Management System enabling secure user authentication and role-based access. Implemented complete CRUD operations for tasks, including task assignment, sharing, and commenting features to support collaboration. Built a responsive frontend using React, React Router, and Tailwind CSS, and designed RESTful APIs with Node.js, Express.js, and MongoDB. Added task search, filtering by status and deadline, and pagination to improve usability and performance.'
+          Project_Domain='Full Stack Development'
           Project_Link='https://www.google.com'
         />
 
-        <Projects_Component ProjectName='Brain Friendly' ID_Name='Brain_Friendly'
-          Description='Brain Friendly Is A E-Learning Website Using VR'
+        <Projects_Component ProjectName='Movie Review Application' ID_Name='Movie_Review'
+          Description='Developed a Movie Review Application using React.js, React Router, and Context API to allow users to search for movies and view detailed information, including ratings. Integrated the OMDB API to fetch real-time movie data such as titles, genres, and ratings. Implemented features for adding and displaying user ratings, and built a responsive user interface using Tailwind CSS to ensure consistent performance across devices.'
           Project_Domain='Web Interface Development '
           Project_Link='https://www.google.com'
         />
