@@ -137,20 +137,20 @@
     box-shadow: 0 0 14px wheat, 0 0 14px white;
 }
 
-#Pyro_Patrol {
-    background-image: url("../Images/Project_Img/Pyro_Patrol.jpg");
+#Task_Management {
+    background-image: url("../Images/Project_Img/Task_Management.png");
 }
 
-.card:hover #Pyro_Patrol {
+.card:hover #Task_Management {
     transition: all 500ms ease-in-out;
     box-shadow: 0px 0 14px orangered, 0px -0 14px orange;
 }
 
-#Brain_Friendly {
-    background-image: url("../Images/Project_Img/E-Learning_VR_1.jpg");
+#Movie_Review {
+    background-image: url("../Images/Project_Img/Movie_Review_2.png");
 }
 
-.card:hover #Brain_Friendly {
+.card:hover #Movie_Review {
     transition: all 500ms ease-in-out;
     box-shadow: 0px 0 14px rgb(108, 108, 255), 0px -0 14px rgb(135, 135, 226);
 }
