@@ -12,6 +12,7 @@ function Projects() {
 
         <Projects_Component ProjectName='OTA' ID_Name='OTA'
           Description='Built a full-stack, role-based OTA Software Campaign Management System using React.js, Node.js, Express.js, and MySQL. Designed the system to securely deliver software updates to vehicle infotainment systems over wireless networks. Developed RESTful APIs with JWT authentication and role-based access control. Implemented secure file uploads, encryption/decryption, and wireless OTA software deployment. Created a responsive frontend with dynamic routing, search, filtering. Deployed the application using Docker and maintained code with Git/GitHub.'
+          Tech_Stack={["React Js", "CSS", "Redux", "Node Js", "Express Js", "MYSQL", "Sequlize"]}
           Project_Domain='Full Stack Development'
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/OTA"
           Backend_Name='Project Code'
@@ -19,6 +20,7 @@ function Projects() {
 
         <Projects_Component ProjectName='Task Management' ID_Name='Task_Management'
           Description='Developed a full-stack Task Management System enabling secure user authentication and role-based access. Implemented complete CRUD operations for tasks, including task assignment, sharing, and commenting features to support collaboration. Built a responsive frontend using React, React Router, and Tailwind CSS, and designed RESTful APIs with Node.js, Express.js, and MongoDB. Added task search, filtering by status and deadline, and pagination to improve usability and performance.'
+          Tech_Stack={["React Js", "Tailwind CSS", "Node Js", "Express Js", "MongoDB", "Mongoose"]}
           Project_Domain='Full Stack Development'
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/Final_Project-Task_Management_Frontend'
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/Final_Project-Task_Management_Backend"
@@ -27,18 +29,30 @@ function Projects() {
 
         <Projects_Component ProjectName='Movie Review Application' ID_Name='Movie_Review'
           Description='Developed a Movie Review Application using React.js, React Router, and Context API to allow users to search for movies and view detailed information, including ratings. Integrated the OMDB API to fetch real-time movie data such as titles, genres, and ratings. Implemented features for adding and displaying user ratings, and built a responsive user interface using Tailwind CSS to ensure consistent performance across devices.'
+          Tech_Stack={["React Js", "Tailwind CSS"]}
           Project_Domain='Web Interface Development '
           Source_Code_Frontend="https://github.com/Paramesh-Kumar-2004/Movie_Review_Project-1"
           Deploy_Link="https://paramesh-kumar-2004.github.io/Movie_Review_Project-1/"
         />
 
+        <Projects_Component ProjectName='Profile Manager' ID_Name='Profile_Manager'
+          Description='Developed a profile management application to create, view, and update user profile information.Built a responsive frontend using React.js for efficient profile handling and clean UI.Designed backend services with Node.js and Express.js to manage profile data operations.'
+          Tech_Stack={["React Js", "CSS", "Node Js", "Express Js", "MongoDB", "Mongoose"]}
+          Project_Domain='Full Stack'
+          Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/'
+          Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/"
+          Deploy_Link="https://paramesh-kumar-2004.github.io/Final_Project-Task_Management_Frontend/"
+        />
+
         <Projects_Component ProjectName='SIL Automation' ID_Name='SIL_Automation'
           Description='Built a frontend interface using HTML that enables users to upload automation test script files and trigger their execution in a testing environment. The interface supports straightforward script file selection and initiation of automated tests, providing a simple and effective way to manage and run test scripts from the browser.'
+          Tech_Stack={["HTML", "CSS", "Java Script"]}
           Project_Domain='Frontend Development'
         />
 
         <Projects_Component ProjectName='Text Based Game' ID_Name='Text_Based_Game'
           Description="As a Python Developer Intern, developed an interactive text-based adventure game demonstrating core programming concepts such as object-oriented programming, control flow, randomization, and user input handling. Implemented features like role-based character creation, dynamic weapon inventory, and real-time decision trees (e.g., attack, run, treasure) to enhance engagement. Utilized Python's random module for combat logic and custom classes/functions to simulate turn-based gameplay. Included mechanics like life tracking, scoring system, and win/lose conditions, strengthening both logic-building and problem-solving skills."
+          Tech_Stack={["Python"]}
           Project_Domain='Game Development (Console Based)'
           Source_Code_Backend='https://github.com/Paramesh-Kumar-2004/Text_Based_Game-Python'
           Backend_Name='Project Code'
@@ -46,6 +60,7 @@ function Projects() {
 
         <Projects_Component ProjectName='Simple AI Voice Assistant' ID_Name='AI_Voice_Assistant'
           Description='Developed a voice-based personal assistant using Python, integrating pyttsx3, datetime, and pywhatkit libraries to simulate an AI named JARVIS. The assistant features user authentication via password input, time-based greetings, and the ability to search Google or play YouTube videos based on voice-triggered or typed input. Implemented role-based responses for different users and used pyttsx3 for text-to-speech interaction. Demonstrated core Python skills including input handling, conditional logic, function design, and real-time task automation.'
+          Tech_Stack={["Python", "pyttsx3"]}
           Project_Domain='Python Automation'
           Source_Code_Backend='https://github.com/Paramesh-Kumar-2004/Voice_Assistant-Search-Tool'
           Backend_Name='Project Code'

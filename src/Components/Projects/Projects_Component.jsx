@@ -4,7 +4,7 @@ import VP from "../../Images/VP.jpeg";
 
 
 
-function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Description = "Summary None", Project_Domain = "None", Source_Code_Frontend = null, Source_Code_Backend = null, Deploy_Link = null, Backend_Name = "Backend" }) {
+function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Description = "Summary None", Project_Domain = "None", Source_Code_Frontend = null, Source_Code_Backend = null, Deploy_Link = null, Backend_Name = "Backend", Tech_Stack = [] }) {
     return (
         <div className="card">
             <div className="img" id={ID_Name}></div>
@@ -14,11 +14,12 @@ function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Descr
             <p className="description" id='Project_Description'>
                 &#160;&#160;&#160;{Description}
             </p>
-            <p>{Project_Domain}</p>
-            {/* <a href={Source_Code_Frontend} className="source" target='_b'>
-                Source Code
-            </a> */}
-
+            <p id='Tech_Stack'>
+                {Tech_Stack.map((item, index) => (
+                    <span key={index}>{item} </span>
+                ))}
+            </p>
+            {/* <p>{Project_Domain}</p> */}
 
             <div className='All_Source'>
                 {/* Frontend Source Code */}
