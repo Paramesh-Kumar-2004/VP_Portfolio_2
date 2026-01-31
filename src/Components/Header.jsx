@@ -13,7 +13,7 @@ function Header() {
   return (
     <div id="Main_Header_Div">
       <nav id='nav'>
-        <h2 id='name'>Paramesh Kumar S</h2>
+        <a id='name' href="#Home">Paramesh Kumar S</a>
         {/* <h3 id="Menu" onClick={ChangeMenu}>{!openMenu ? "MENU" : "Close"}</h3> */}
 
         <h1 onClick={ChangeMenu} id="Menu">
@@ -21,10 +21,11 @@ function Header() {
         </h1>
 
         <ul id="links" className={openMenu ? 'show' : 'hide'}>
-          <li className='lists'><a onClick={ChangeMenu} href="#Home">Home</a></li>
+          {/* <li className='lists'><a onClick={ChangeMenu} href="#Home">Home</a></li> */}
           <li className='lists'><a onClick={ChangeMenu} href="#About">About</a></li>
           <li className='lists'><a onClick={ChangeMenu} href="#Skills">Skills</a></li>
           <li className='lists'><a onClick={ChangeMenu} href="#Projects">Projects</a></li>
+          <li className='lists'><a onClick={ChangeMenu} href="#Certificates">Certificates</a></li>
           <li className='lists'><a onClick={ChangeMenu} href="#Experience">Experience</a></li>
           <li className='lists'><a onClick={ChangeMenu} href="#Contact">Contact</a></li>
         </ul>

@@ -1,11 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Typed from 'typed.js'
 
-import LinkedIn from './Social_Media/LinkedIn'
-import Github from './Social_Media/GitHub'
+import LinkedIn from '../Components/Social_Media/LinkedIn'
+import Github from '../Components/Social_Media/GitHub'
 import "../Styles/Home.css"
 import Resume from "../Images/VP_Resume.pdf"
-import Title from './Utils/Title'
+import Title from '../Components/Utils/Title'
 
 
 function Home() {

@@ -27,6 +27,7 @@
         color: transparent;
         animation: fadeSlideIn 1s ease-out forwards;
         cursor: pointer;
+        text-decoration: none;
     }
 
     #name:hover {

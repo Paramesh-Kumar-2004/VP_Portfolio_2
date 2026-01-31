@@ -1,5 +1,5 @@
 import React from 'react'
-import Skills_Animation from './Skills/Skills_Animation'
+import Skills_Animation from '../Components/Skills/Skills_Animation'
 import "../Styles/Skills.css"
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import "../Styles/About.css"
-import Title from "./Utils/Title"
+import Title from "../Components/Utils/Title"
 
 
 
