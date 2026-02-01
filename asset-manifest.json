@@ -1,30 +1,34 @@
 {
   "files": {
-    "main.css": "/VP_Portfolio_2/static/css/main.5bfdf732.css",
-    "main.js": "/VP_Portfolio_2/static/js/main.1a440406.js",
+    "main.css": "/VP_Portfolio_2/static/css/main.3190d923.css",
+    "main.js": "/VP_Portfolio_2/static/js/main.d23422eb.js",
     "static/media/Wallpaper_4.jpg": "/VP_Portfolio_2/static/media/Wallpaper_4.ed3531a5a2983dec55d3.jpg",
     "static/media/Wallpaper_2.jpg": "/VP_Portfolio_2/static/media/Wallpaper_2.bd0213ae020d82a34751.jpg",
     "static/media/Wallpaper_3.jpg": "/VP_Portfolio_2/static/media/Wallpaper_3.524007b60fdd3f6191d1.jpg",
     "static/media/Wallpaper_1.jpg": "/VP_Portfolio_2/static/media/Wallpaper_1.5432887a89c4fcfdf3f7.jpg",
     "static/media/Movie_Review_2.png": "/VP_Portfolio_2/static/media/Movie_Review_2.683dfcff03905ff34a78.png",
+    "static/media/Profile_Manager.png": "/VP_Portfolio_2/static/media/Profile_Manager.972535079d58a058f96f.png",
     "static/media/Task_Management.png": "/VP_Portfolio_2/static/media/Task_Management.1b9660153911babf4710.png",
     "static/media/Wallpaper_5.jpg": "/VP_Portfolio_2/static/media/Wallpaper_5.99fae94c17c069f7f7ad.jpg",
-    "static/media/VP_Resume.pdf": "/VP_Portfolio_2/static/media/VP_Resume.c4520d9cc65103bb7060.pdf",
+    "static/media/SIL_Automation.png": "/VP_Portfolio_2/static/media/SIL_Automation.f497ad8cf2c23f3bb797.png",
     "static/media/Minato 2.jpg": "/VP_Portfolio_2/static/media/Minato 2.ec5354ba9c7bc42d0da3.jpg",
-    "static/media/SIL Automation.jpg": "/VP_Portfolio_2/static/media/SIL Automation.551d402d85787e176e68.jpg",
+    "static/media/FSD_With_AI_Tools.png": "/VP_Portfolio_2/static/media/FSD_With_AI_Tools.dc81374b8ad79d93cf78.png",
+    "static/media/VP_Resume.pdf": "/VP_Portfolio_2/static/media/VP_Resume.d61048d717a71e121bf6.pdf",
     "static/media/Text_Game_2.jpg": "/VP_Portfolio_2/static/media/Text_Game_2.629b82d7ae5fcdeb8a70.jpg",
+    "static/media/Complete_Python.pdf": "/VP_Portfolio_2/static/media/Complete_Python.d3e0fd17ea84acdb5f13.pdf",
     "static/media/AI_Assistant_1.jpg": "/VP_Portfolio_2/static/media/AI_Assistant_1.451888631d8f7f3c8851.jpg",
+    "static/media/Python_Developer.pdf": "/VP_Portfolio_2/static/media/Python_Developer.6fef6c900b052a7e41ae.pdf",
     "static/media/Java.png": "/VP_Portfolio_2/static/media/Java.0dbe756acd76cd4d98a8.png",
     "static/media/OTA.jpg": "/VP_Portfolio_2/static/media/OTA.50c2da3958395d40d46a.jpg",
     "static/media/VP.jpeg": "/VP_Portfolio_2/static/media/VP.deb110340f7faf513510.jpeg",
     "static/media/Selenium.webp": "/VP_Portfolio_2/static/media/Selenium.416746f41c1b6b7ce073.webp",
     "static/media/Git.webp": "/VP_Portfolio_2/static/media/Git.302d49d51800fe5fac71.webp",
     "index.html": "/VP_Portfolio_2/index.html",
-    "main.5bfdf732.css.map": "/VP_Portfolio_2/static/css/main.5bfdf732.css.map",
-    "main.1a440406.js.map": "/VP_Portfolio_2/static/js/main.1a440406.js.map"
+    "main.3190d923.css.map": "/VP_Portfolio_2/static/css/main.3190d923.css.map",
+    "main.d23422eb.js.map": "/VP_Portfolio_2/static/js/main.d23422eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bfdf732.css",
-    "static/js/main.1a440406.js"
+    "static/css/main.3190d923.css",
+    "static/js/main.d23422eb.js"
   ]
 }
