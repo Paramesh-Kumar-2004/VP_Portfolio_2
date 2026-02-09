@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/VP_Portfolio_2/static/css/main.3190d923.css",
-    "main.js": "/VP_Portfolio_2/static/js/main.d23422eb.js",
+    "main.css": "/VP_Portfolio_2/static/css/main.c38e3748.css",
+    "main.js": "/VP_Portfolio_2/static/js/main.709cec80.js",
     "static/media/Wallpaper_4.jpg": "/VP_Portfolio_2/static/media/Wallpaper_4.ed3531a5a2983dec55d3.jpg",
     "static/media/Wallpaper_2.jpg": "/VP_Portfolio_2/static/media/Wallpaper_2.bd0213ae020d82a34751.jpg",
     "static/media/Wallpaper_3.jpg": "/VP_Portfolio_2/static/media/Wallpaper_3.524007b60fdd3f6191d1.jpg",
     "static/media/Wallpaper_1.jpg": "/VP_Portfolio_2/static/media/Wallpaper_1.5432887a89c4fcfdf3f7.jpg",
     "static/media/Movie_Review_2.png": "/VP_Portfolio_2/static/media/Movie_Review_2.683dfcff03905ff34a78.png",
-    "static/media/Profile_Manager.png": "/VP_Portfolio_2/static/media/Profile_Manager.972535079d58a058f96f.png",
+    "static/media/AI_Chat.png": "/VP_Portfolio_2/static/media/AI_Chat.a35f9d363a32a2c671be.png",
+    "static/media/Student_Management_System.png": "/VP_Portfolio_2/static/media/Student_Management_System.972535079d58a058f96f.png",
     "static/media/Task_Management.png": "/VP_Portfolio_2/static/media/Task_Management.1b9660153911babf4710.png",
     "static/media/Wallpaper_5.jpg": "/VP_Portfolio_2/static/media/Wallpaper_5.99fae94c17c069f7f7ad.jpg",
     "static/media/SIL_Automation.png": "/VP_Portfolio_2/static/media/SIL_Automation.f497ad8cf2c23f3bb797.png",
@@ -24,11 +25,11 @@
     "static/media/Selenium.webp": "/VP_Portfolio_2/static/media/Selenium.416746f41c1b6b7ce073.webp",
     "static/media/Git.webp": "/VP_Portfolio_2/static/media/Git.302d49d51800fe5fac71.webp",
     "index.html": "/VP_Portfolio_2/index.html",
-    "main.3190d923.css.map": "/VP_Portfolio_2/static/css/main.3190d923.css.map",
-    "main.d23422eb.js.map": "/VP_Portfolio_2/static/js/main.d23422eb.js.map"
+    "main.c38e3748.css.map": "/VP_Portfolio_2/static/css/main.c38e3748.css.map",
+    "main.709cec80.js.map": "/VP_Portfolio_2/static/js/main.709cec80.js.map"
   },
   "entrypoints": [
-    "static/css/main.3190d923.css",
-    "static/js/main.d23422eb.js"
+    "static/css/main.c38e3748.css",
+    "static/js/main.709cec80.js"
   ]
 }
