@@ -1,5 +1,5 @@
 import React from 'react'
-import Projects_Component from '../Components/Projects/Projects_Component'
+import Projects_Component from '../Components/Projects/Project_Component'
 import "../Styles/Projects.css"
 
 
@@ -35,20 +35,29 @@ function Projects() {
           Deploy_Link="https://paramesh-kumar-2004.github.io/Movie_Review_Project-1/"
         />
 
-        <Projects_Component ProjectName='Profile Manager' ID_Name='Profile_Manager'
-          Description='Developed a profile management application to create, view, and update user profile information.Built a responsive frontend using React.js for efficient profile handling and clean UI.Designed backend services with Node.js and Express.js to manage profile data operations.'
-          Tech_Stack={["React Js", "CSS", "Node Js", "Express Js", "MongoDB", "Mongoose"]}
+        <Projects_Component ProjectName='Student Management System' ID_Name='Student_Management_System'
+          Description='I developed a full-stack Student Management System using the MERN stack, designed to efficiently manage students, teachers, and classes with secure JWT-based authentication. The application supports complete CRUD operations, role-based access control, and a teacher role request and approval workflow managed through an admin dashboard. Users can register, log in, manage their profiles, and be assigned to classes seamlessly. This project demonstrates my ability to build scalable, real-world web applications with clean architecture and robust backend APIs.'
+          Tech_Stack={["React Js", "Tailwind CSS", "Node Js", "Express Js", "MongoDB", "Mongoose"]}
           Project_Domain='Full Stack'
-          Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/'
-          Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/"
-          Deploy_Link="https://paramesh-kumar-2004.github.io/Final_Project-Task_Management_Frontend/"
+          Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/Student_Management_System-Frotend'
+          Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/Student_Management_System-Backend"
+          Deploy_Link="https://paramesh-kumar-2004.github.io/Student_Management_System-Frotend/"
         />
 
-        <Projects_Component ProjectName='SIL Automation' ID_Name='SIL_Automation'
+        <Projects_Component ProjectName='AI Chat' ID_Name='AI_Chat'
+          Description='I developed a modern AI Chat Application that enables users to ask questions and receive intelligent, real-time responses through a clean and responsive interface. The application maintains a continuous conversation flow by displaying previous chat messages on the same page, allowing users to scroll and revisit past interactions seamlessly. Built with a focus on performance and user experience, the UI features a sleek dark theme with smooth message transitions and intuitive input controls. This project demonstrates my ability to design interactive front-end experiences and integrate AI-powered responses into a scalable web application.'
+          Tech_Stack={["React Js", "Tailwind CSS", "Node Js", "Express Js", "MongoDB", "Mongoose"]}
+          Project_Domain='Full Stack'
+          Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/AI_Chat_Frontend'
+          Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/AI_Chat_Backend"
+          Deploy_Link="https://paramesh-kumar-2004.github.io/AI_Chat_Frontend/#/"
+        />
+
+        {/* <Projects_Component ProjectName='SIL Automation' ID_Name='SIL_Automation'
           Description='Built a frontend interface using HTML that enables users to upload automation test script files and trigger their execution in a testing environment. The interface supports straightforward script file selection and initiation of automated tests, providing a simple and effective way to manage and run test scripts from the browser.'
           Tech_Stack={["HTML", "CSS", "Java Script"]}
           Project_Domain='Frontend Development'
-        />
+        /> 
 
         <Projects_Component ProjectName='Text Based Game' ID_Name='Text_Based_Game'
           Description="As a Python Developer Intern, developed an interactive text-based adventure game demonstrating core programming concepts such as object-oriented programming, control flow, randomization, and user input handling. Implemented features like role-based character creation, dynamic weapon inventory, and real-time decision trees (e.g., attack, run, treasure) to enhance engagement. Utilized Python's random module for combat logic and custom classes/functions to simulate turn-based gameplay. Included mechanics like life tracking, scoring system, and win/lose conditions, strengthening both logic-building and problem-solving skills."
@@ -58,7 +67,7 @@ function Projects() {
           Backend_Name='Project Code'
         />
 
-        {/* <Projects_Component ProjectName='Simple AI Voice Assistant' ID_Name='AI_Voice_Assistant'
+       <Projects_Component ProjectName='Simple AI Voice Assistant' ID_Name='AI_Voice_Assistant'
           Description='Developed a voice-based personal assistant using Python, integrating pyttsx3, datetime, and pywhatkit libraries to simulate an AI named JARVIS. The assistant features user authentication via password input, time-based greetings, and the ability to search Google or play YouTube videos based on voice-triggered or typed input. Implemented role-based responses for different users and used pyttsx3 for text-to-speech interaction. Demonstrated core Python skills including input handling, conditional logic, function design, and real-time task automation.'
           Tech_Stack={["Python", "pyttsx3"]}
           Project_Domain='Python Automation'

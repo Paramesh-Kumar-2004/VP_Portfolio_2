@@ -12,7 +12,6 @@
 
   background-image: url("../Images/Wallpaper_5.jpg");
   /* animation: slideshow 26s infinite; */
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -203,6 +202,10 @@
 @media (max-width:768px) {
   .tooltip-container-resume:hover .tooltip3 {
     right: 75px;
+  }
+
+  #Home {
+    background-position: -400px 0;
   }
 
   .tooltip-container-resume:hover .tooltip2 {

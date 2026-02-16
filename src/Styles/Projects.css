@@ -164,11 +164,11 @@
     box-shadow: 0px 0 14px #1e2227, 0px -0 14px skyblue;
 }
 
-#Profile_Manager {
-    background-image: url("../Images/Project_Img/Profile_Manager.png");
+#Student_Management_System {
+    background-image: url("../Images/Project_Img/Student_Management_System.png");
 }
 
-.card:hover #Profile_Manager {
+.card:hover #Student_Management_System {
     transition: all 500ms ease-in-out;
     box-shadow: 0px 0 14px #1e2227, 0px -0 14px rgb(0, 183, 255);
 }
@@ -190,6 +190,7 @@
     transition: all 500ms ease-in-out;
     box-shadow: 0px 0 14px rgb(91, 209, 209), 0px -0 14px rgb(84, 55, 212);
 }
+
 
 #AI_Voice_Assistant {
     background-image: url("../Images/Project_Img/AI_Assistant_1.jpg");
