@@ -27,14 +27,6 @@ function Projects() {
           Deploy_Link="https://paramesh-kumar-2004.github.io/Final_Project-Task_Management_Frontend/"
         />
 
-        <Projects_Component ProjectName='Movie Review Application' ID_Name='Movie_Review'
-          Description='Developed a Movie Review Application using React.js, React Router, and Context API to allow users to search for movies and view detailed information, including ratings. Integrated the OMDB API to fetch real-time movie data such as titles, genres, and ratings. Implemented features for adding and displaying user ratings, and built a responsive user interface using Tailwind CSS to ensure consistent performance across devices.'
-          Tech_Stack={["React Js", "Tailwind CSS"]}
-          Project_Domain='Web Interface Development '
-          Source_Code_Frontend="https://github.com/Paramesh-Kumar-2004/Movie_Review_Project-1"
-          Deploy_Link="https://paramesh-kumar-2004.github.io/Movie_Review_Project-1/"
-        />
-
         <Projects_Component ProjectName='Student Management System' ID_Name='Student_Management_System'
           Description='I developed a full-stack Student Management System using the MERN stack, designed to efficiently manage students, teachers, and classes with secure JWT-based authentication. The application supports complete CRUD operations, role-based access control, and a teacher role request and approval workflow managed through an admin dashboard. Users can register, log in, manage their profiles, and be assigned to classes seamlessly. This project demonstrates my ability to build scalable, real-world web applications with clean architecture and robust backend APIs.'
           Tech_Stack={["React Js", "Tailwind CSS", "Node Js", "Express Js", "MongoDB", "Mongoose"]}
@@ -51,6 +43,14 @@ function Projects() {
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/AI_Chat_Frontend'
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/AI_Chat_Backend"
           Deploy_Link="https://paramesh-kumar-2004.github.io/AI_Chat_Frontend/#/"
+        />
+
+        <Projects_Component ProjectName='Movie Review Application' ID_Name='Movie_Review'
+          Description='Developed a Movie Review Application using React.js, React Router, and Context API to allow users to search for movies and view detailed information, including ratings. Integrated the OMDB API to fetch real-time movie data such as titles, genres, and ratings. Implemented features for adding and displaying user ratings, and built a responsive user interface using Tailwind CSS to ensure consistent performance across devices.'
+          Tech_Stack={["React Js", "Tailwind CSS"]}
+          Project_Domain='Web Interface Development '
+          Source_Code_Frontend="https://github.com/Paramesh-Kumar-2004/Movie_Review_Project-1"
+          Deploy_Link="https://paramesh-kumar-2004.github.io/Movie_Review_Project-1/"
         />
 
         {/* <Projects_Component ProjectName='SIL Automation' ID_Name='SIL_Automation'
