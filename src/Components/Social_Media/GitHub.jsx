@@ -16,7 +16,7 @@ function Github() {
                 <div className="username">Paramesh-Kumar-2004</div>
               </div>
             </div>
-            <div className="about">32 Repositories</div>
+            <div className="about">40+ Repositories</div>
           </div>
         </div>
         <div className="text">
