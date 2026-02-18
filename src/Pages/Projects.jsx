@@ -10,6 +10,7 @@ function Projects() {
       <h1 id='Title'>Projects</h1>
       <div id='Projects_List'>
 
+        {/* 
         <Projects_Component ProjectName='OTA' ID_Name='OTA'
           Description='Built a full-stack, role-based OTA Software Campaign Management System using React.js, Node.js, Express.js, and MySQL. Designed the system to securely deliver software updates to vehicle infotainment systems over wireless networks. Developed RESTful APIs with JWT authentication and role-based access control. Implemented secure file uploads, encryption/decryption, and wireless OTA software deployment. Created a responsive frontend with dynamic routing, search, filtering. Deployed the application using Docker and maintained code with Git/GitHub.'
           Tech_Stack={["React Js", "CSS", "Redux", "Node Js", "Express Js", "MYSQL", "Sequlize"]}
@@ -17,6 +18,7 @@ function Projects() {
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/OTA"
           Backend_Name='Project Code'
         />
+        */}
 
         <Projects_Component ProjectName='Task Management' ID_Name='Task_Management'
           Description='Developed a full-stack Task Management System enabling secure user authentication and role-based access. Implemented complete CRUD operations for tasks, including task assignment, sharing, and commenting features to support collaboration. Built a responsive frontend using React, React Router, and Tailwind CSS, and designed RESTful APIs with Node.js, Express.js, and MongoDB. Added task search, filtering by status and deadline, and pagination to improve usability and performance.'

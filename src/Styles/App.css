@@ -10,9 +10,11 @@
 
 #Title {
     padding: 65px 65px 0px 65px;
-    text-shadow: 0 0 14px skyblue, 0 0 14px #0ff;
+    /* text-shadow: 0 0 14px skyblue, 0 0 14px #0ff; */
+    color: skyblue;
+    text-decoration: underline;
     justify-self: center;
-    cursor: pointer;
+    cursor: default;
 }
 
 /* #Title:hover {

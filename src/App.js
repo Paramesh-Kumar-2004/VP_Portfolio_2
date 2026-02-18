@@ -26,7 +26,7 @@ function App() {
       <Certificates />
       <Experience />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
