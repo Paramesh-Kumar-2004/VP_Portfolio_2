@@ -58,13 +58,14 @@
         animation: fadeSlideIn 1s ease-out forwards;
     }
 
-    /* .lists a:hover {
+    .lists a:hover {
         color: rgb(0, 183, 255);
         transition: all 126ms ease-in-out;
         text-decoration-line: underline;
         text-decoration-color: rgb(0, 183, 255);
         text-shadow: 0 0 4px darkblue, 0 0 4px darkorchid;
-    } */
+        scale: 1.3;
+    }
 
     .lists {
         padding: 14px;
@@ -73,11 +74,11 @@
         font-weight: bolder;
     }
 
-    .lists:hover {
+    /* .lists:hover {
         scale: 1.3;
         transform: translateY(-14deg);
         transition: all 126ms ease-in-out;
-    }
+    } */
 
     .show {
         display: flex;
