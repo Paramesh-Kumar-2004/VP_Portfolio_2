@@ -26,7 +26,7 @@ function Projects() {
           Project_Domain='Full Stack Development'
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/Final_Project-Task_Management_Frontend'
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/Final_Project-Task_Management_Backend"
-          Deploy_Link="https://paramesh-kumar-2004.github.io/Final_Project-Task_Management_Frontend/"
+          Frontend_Deploy_Link="https://paramesh-kumar-2004.github.io/Final_Project-Task_Management_Frontend/"
         />
 
         <Projects_Component ProjectName='Student Management System' ID_Name='Student_Management_System'
@@ -35,7 +35,7 @@ function Projects() {
           Project_Domain='Full Stack'
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/Student_Management_System-Frotend'
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/Student_Management_System-Backend"
-          Deploy_Link="https://paramesh-kumar-2004.github.io/Student_Management_System-Frotend/"
+          Frontend_Deploy_Link="https://paramesh-kumar-2004.github.io/Student_Management_System-Frotend/"
         />
 
         <Projects_Component ProjectName='AI Chat' ID_Name='AI_Chat'
@@ -44,7 +44,7 @@ function Projects() {
           Project_Domain='Full Stack'
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/AI_Chat_Frontend'
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/AI_Chat_Backend"
-          Deploy_Link="https://paramesh-kumar-2004.github.io/AI_Chat_Frontend/#/"
+          Frontend_Deploy_Link="https://paramesh-kumar-2004.github.io/AI_Chat_Frontend/#/"
         />
 
         <Projects_Component ProjectName='Movie Review Application' ID_Name='Movie_Review'
@@ -52,7 +52,7 @@ function Projects() {
           Tech_Stack={["React Js", "Tailwind CSS"]}
           Project_Domain='Web Interface Development '
           Source_Code_Frontend="https://github.com/Paramesh-Kumar-2004/Movie_Review_Project-1"
-          Deploy_Link="https://paramesh-kumar-2004.github.io/Movie_Review_Project-1/"
+          Frontend_Deploy_Link="https://paramesh-kumar-2004.github.io/Movie_Review_Project-1/"
         />
 
         {/* <Projects_Component ProjectName='SIL Automation' ID_Name='SIL_Automation'

@@ -72,6 +72,10 @@
         margin: 14px;
         justify-self: center;
     }
+
+    #About #Title{
+        font-size: 30px;
+    }
 }
 
 @keyframes fadeSlideIn {

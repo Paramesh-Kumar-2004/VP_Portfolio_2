@@ -8,7 +8,6 @@ function About() {
   return (
     <div id='About'>
 
-
       <h1 id='Title'>ABOUT ME</h1>
 
       <div id='Contents'>
