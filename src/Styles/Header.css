@@ -65,8 +65,7 @@
         transition: all 126ms ease-in-out;
         text-decoration-line: underline;
         text-decoration-color: rgb(0, 183, 255);
-        text-shadow: 0 0 4px darkblue, 0 0 4px darkorchid;
-        scale: 1.3;
+        /* text-shadow: 0 0 4px darkblue, 0 0 4px darkorchid; */
     }
 
     .lists {
