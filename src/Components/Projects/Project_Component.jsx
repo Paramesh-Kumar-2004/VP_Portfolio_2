@@ -34,62 +34,58 @@ function Projects_Component({
 
             <div className='All_Source'>
 
-                <div>
-                    <h4>Source Code :</h4>
-                    <div className='ProjectLinks'>
-                        {/* Frontend Source Code */}
-                        {Source_Code_Frontend && (
-                            <a
-                                href={Source_Code_Frontend}
-                                className="source"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Frontend
-                            </a>
-                        )}
+                <div className='ProjectLinks' >
+                    <h4>Source Codes :</h4>
+                    {/* Frontend Source Code */}
+                    {Source_Code_Frontend && (
+                        <a
+                            href={Source_Code_Frontend}
+                            className="source"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Frontend
+                        </a>
+                    )}
 
-                        {/* Backend Source Code */}
-                        {Source_Code_Backend && (
-                            <a
-                                href={Source_Code_Backend}
-                                className="source"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {Backend_Name}
-                            </a>
-                        )}
-                    </div>
+                    {/* Backend Source Code */}
+                    {Source_Code_Backend && (
+                        <a
+                            href={Source_Code_Backend}
+                            className="source"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            {Backend_Name}
+                        </a>
+                    )}
                 </div>
 
+
                 {/* Project Deploy Link */}
-                <div>
+                <div className='ProjectLinks'>
                     <h4>Live Links :</h4>
-                    <div className='ProjectLinks'>
-                        {Frontend_Deploy_Link && (
-                            <a
-                                href={Frontend_Deploy_Link}
-                                className="source"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Frontend
-                            </a>
-                        )}
+                    {Frontend_Deploy_Link && (
+                        <a
+                            href={Frontend_Deploy_Link}
+                            className="source"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Frontend
+                        </a>
+                    )}
 
-                        {Backend_Deploy_Link && (
-                            <a
-                                href={Backend_Deploy_Link}
-                                className="source"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                Live Link 2
-                            </a>
-                        )}
-                    </div>
-
+                    {Backend_Deploy_Link && (
+                        <a
+                            href={Backend_Deploy_Link}
+                            className="source"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Backend
+                        </a>
+                    )}
                 </div>
 
             </div>

@@ -27,6 +27,7 @@ function Projects() {
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/Final_Project-Task_Management_Frontend'
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/Final_Project-Task_Management_Backend"
           Frontend_Deploy_Link="https://paramesh-kumar-2004.github.io/Final_Project-Task_Management_Frontend/"
+          Backend_Deploy_Link="https://final-project-task-management-backend-1.onrender.com/"
         />
 
         <Projects_Component ProjectName='Student Management System' ID_Name='Student_Management_System'
@@ -36,6 +37,7 @@ function Projects() {
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/Student_Management_System-Frotend'
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/Student_Management_System-Backend"
           Frontend_Deploy_Link="https://paramesh-kumar-2004.github.io/Student_Management_System-Frotend/"
+          Backend_Deploy_Link="https://student-management-system-backend-xi.vercel.app/"
         />
 
         <Projects_Component ProjectName='AI Chat' ID_Name='AI_Chat'
@@ -45,6 +47,7 @@ function Projects() {
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/AI_Chat_Frontend'
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/AI_Chat_Backend"
           Frontend_Deploy_Link="https://paramesh-kumar-2004.github.io/AI_Chat_Frontend/#/"
+          Backend_Deploy_Link="https://ai-chat-backend-rouge.vercel.app/"
         />
 
         <Projects_Component ProjectName='Movie Review Application' ID_Name='Movie_Review'
