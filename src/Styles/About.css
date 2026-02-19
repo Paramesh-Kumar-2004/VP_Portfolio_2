@@ -38,23 +38,24 @@
 #MyImg {
     padding: 14px;
     margin: 14px;
-    height: 160px;
-    width: 160px;
+    height: 200px;
+    width: 200px;
     margin-right: 126px;
-    border-radius: 3px;
+    border-radius: 50%;
     background: gray;
     background-image: url("../Images/VP.jpeg");
     background-position: 0px -26px;
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 0px 0px 14px 3px skyblue;
+    /* box-shadow: 0px 0px 14px 3px skyblue; */
     cursor: pointer;
 }
 
 #MyImg:hover {
     scale: 1.1;
     transition: all 0.2004s ease-in-out;
-    box-shadow: 0px 0px 14px 3px cyan;
+    /* box-shadow: 0px 0px 14px 3px cyan; */
+    border: 2px dashed skyblue;
 }
 
 
