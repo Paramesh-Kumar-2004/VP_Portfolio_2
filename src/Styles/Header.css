@@ -11,8 +11,10 @@
         z-index: 14;
         /* box-shadow: inset -14px 0 26px 3px skyblue; */
         background: black;
+        /* background: transparent; */
         /* box-shadow: inset -14px 0 26px 3px palevioletred; */
-        box-shadow: inset -14px 0 26px 3px lightblue;
+        /* box-shadow: inset -14px 0 26px 3px lightblue; */
+        border-bottom: 2px solid lightblue;
     }
 
     #Menu {
