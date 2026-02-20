@@ -130,6 +130,8 @@
 #ProjectNameDiv {
     display: flex;
     justify-content: center;
+    text-align: center;
+    /* background: #000; */ 
 }
 
 #ProjectNameDiv .text {
@@ -137,7 +139,8 @@
     padding: 6px 24px;
     font-size: 20px;
     /* box-shadow: 3px 3px 14px 3px skyblue; */
-    box-shadow: 0px 0px 3px 3px skyblue;
+    box-shadow: 0 0 5px 0 gray;
+    border: 1px solid gray;
 }
 
 .description {
