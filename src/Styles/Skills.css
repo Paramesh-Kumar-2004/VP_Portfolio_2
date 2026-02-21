@@ -69,6 +69,10 @@
     background-image: url("../Images/HTML_CSS.jpeg");
 }
 
+#HTML_CSS p {
+    font-size: small;
+}
+
 #Java_Script {
     background-image: url("../Images/Java_Script.jpeg");
 }
@@ -90,9 +94,9 @@
     background-image: url("../Images/Git.webp");
 }
 
-/* #Git .circle-text {
+#Git .circle-text {
     font-size: 14px;
-} */
+}
 
 #MYSQL {
     background-image: url("../Images/MYSQL.jpeg");

@@ -26,7 +26,8 @@ function Projects() {
           Project_Domain='Full Stack Development'
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/Final_Project-Task_Management_Frontend'
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/Final_Project-Task_Management_Backend"
-          Frontend_Deploy_Link="https://paramesh-kumar-2004.github.io/Final_Project-Task_Management_Frontend/"
+
+          Frontend_Deploy_Link="https://final-project-task-management-frontend-ddsyxqes5.vercel.app/"
           Backend_Deploy_Link="https://final-project-task-management-backend-1.onrender.com/"
         />
 
@@ -36,7 +37,8 @@ function Projects() {
           Project_Domain='Full Stack'
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/Student_Management_System-Frotend'
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/Student_Management_System-Backend"
-          Frontend_Deploy_Link="https://paramesh-kumar-2004.github.io/Student_Management_System-Frotend/"
+
+          Frontend_Deploy_Link="https://student-management-system-frotend.vercel.app/"
           Backend_Deploy_Link="https://student-management-system-backend-xi.vercel.app/"
         />
 
@@ -46,7 +48,8 @@ function Projects() {
           Project_Domain='Full Stack'
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/AI_Chat_Frontend'
           Source_Code_Backend="https://github.com/Paramesh-Kumar-2004/AI_Chat_Backend"
-          Frontend_Deploy_Link="https://paramesh-kumar-2004.github.io/AI_Chat_Frontend/#/"
+
+          Frontend_Deploy_Link="https://ai-chat-frontend-one-chi.vercel.app/"
           Backend_Deploy_Link="https://ai-chat-backend-rouge.vercel.app/"
         />
 
