@@ -21,7 +21,7 @@ function Projects() {
         */}
 
         <Projects_Component ProjectName='Task Management' ID_Name='Task_Management'
-          Description='Developed a full-stack Task Management System enabling secure user authentication and role-based access. Implemented complete CRUD operations for tasks, including task assignment, sharing, and commenting features to support collaboration. Built a responsive frontend using React, React Router, and Tailwind CSS, and designed RESTful APIs with Node.js, Express.js, and MongoDB. Added task search, filtering by status and deadline, and pagination to improve usability and performance.'
+          Description='Built a full-stack Task Management System with secure authentication, role-based access, complete CRUD (assignment, sharing, commenting), a responsive React + Tailwind frontend, and RESTful APIs using Node.js, Express, and MongoDB, including search, filtering, and pagination for enhanced usability and performance.'
           Tech_Stack={["React Js", "Tailwind CSS", "Node Js", "Express Js", "MongoDB", "Mongoose"]}
           Project_Domain='Full Stack Development'
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/Final_Project-Task_Management_Frontend'
@@ -33,7 +33,7 @@ function Projects() {
         />
 
         <Projects_Component ProjectName='Student Management System' ID_Name='Student_Management_System'
-          Description='I developed a full-stack Student Management System using the MERN stack, designed to efficiently manage students, teachers, and classes with secure JWT-based authentication. The application supports complete CRUD operations, role-based access control, and a teacher role request and approval workflow managed through an admin dashboard. Users can register, log in, manage their profiles, and be assigned to classes seamlessly. This project demonstrates my ability to build scalable, real-world web applications with clean architecture and robust backend APIs.'
+          Description='Built a full-stack Student Management System using the MERN stack with JWT authentication, role-based access control, teacher role request/approval via an admin dashboard, and complete CRUD operations for managing students, teachers, classes, and profiles with scalable architecture and robust APIs.'
           Tech_Stack={["React Js", "Tailwind CSS", "Node Js", "Express Js", "MongoDB", "Mongoose"]}
           Project_Domain='Full Stack'
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/Student_Management_System-Frotend'
@@ -44,7 +44,7 @@ function Projects() {
         />
 
         <Projects_Component ProjectName='AI Chat' ID_Name='AI_Chat'
-          Description='I developed a modern AI Chat Application that enables users to ask questions and receive intelligent, real-time responses through a clean and responsive interface. The application maintains a continuous conversation flow by displaying previous chat messages on the same page, allowing users to scroll and revisit past interactions seamlessly. Built with a focus on performance and user experience, the UI features a sleek dark theme with smooth message transitions and intuitive input controls. This project demonstrates my ability to design interactive front-end experiences and integrate AI-powered responses into a scalable web application.'
+          Description='Developed a modern AI Chat Application with real-time intelligent responses, persistent conversation flow, and a sleek dark-themed responsive UI, demonstrating scalable AI integration and interactive front-end design focused on performance and seamless user experience.'
           Tech_Stack={["React Js", "Tailwind CSS", "Node Js", "Express Js", "MongoDB", "Mongoose"]}
           Project_Domain='Full Stack'
           Source_Code_Frontend='https://github.com/Paramesh-Kumar-2004/AI_Chat_Frontend'
@@ -55,7 +55,7 @@ function Projects() {
         />
 
         <Projects_Component ProjectName='Movie Review Application' ID_Name='Movie_Review'
-          Description='Developed a Movie Review Application using React.js, React Router, and Context API to allow users to search for movies and view detailed information, including ratings. Integrated the OMDB API to fetch real-time movie data such as titles, genres, and ratings. Implemented features for adding and displaying user ratings, and built a responsive user interface using Tailwind CSS to ensure consistent performance across devices.'
+          Description='Developed a Movie Review Application using React.js, React Router, and Context API with OMDB API integration to fetch real-time movie data, enabling search, detailed views, user ratings, and a responsive Tailwind CSS interface optimized for cross-device performance.'
           Tech_Stack={["React Js", "Tailwind CSS"]}
           Project_Domain='Web Interface Development '
           Source_Code_Frontend="https://github.com/Paramesh-Kumar-2004/Movie_Review_Project-1"

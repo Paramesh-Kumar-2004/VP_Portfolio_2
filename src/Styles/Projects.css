@@ -27,10 +27,10 @@
 }
 
 .card:hover {
-    /* transform: scale(1.04); */
+    transform: scale(1.04);
 }
 
-/* .card::before {
+.card::before {
     content: "";
     position: absolute;
     inset: -4px;
@@ -44,7 +44,7 @@
             #00f);
     z-index: -2;
     animation: rotateBorder 4s linear infinite;
-} */
+}
 
 .card::after {
     content: "";
@@ -113,7 +113,13 @@
 }
 
 #Tech_Stack span {
-    border-bottom: 2px solid gray;
+    /* border-bottom: 2px solid gray; */
+    font-weight: bolder;
+}
+
+.ProjectLinks h4 {
+    color: white;
+    font-weight: 300;
 }
 
 .source {
@@ -131,7 +137,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    /* background: #000; */ 
+    /* background: #000; */
 }
 
 #ProjectNameDiv .text {
@@ -184,28 +190,28 @@
     background-image: url("../Images/Project_Img/Task_Management.png");
 }
 
-/* .card:hover #Task_Management {
+.card:hover #Task_Management {
     transition: all 500ms ease-in-out;
     box-shadow: 0px 0 14px #1e2227, 0px -0 14px skyblue;
-} */
+}
 
 #Student_Management_System {
     background-image: url("../Images/Project_Img/Student_Management_System.png");
 }
 
-/* .card:hover #Student_Management_System {
+.card:hover #Student_Management_System {
     transition: all 500ms ease-in-out;
     box-shadow: 0px 0 14px #1e2227, 0px -0 14px rgb(0, 183, 255);
-} */
+}
 
 #Movie_Review {
     background-image: url("../Images/Project_Img/Movie_Review_2.png");
 }
 
-/* .card:hover #Movie_Review {
+.card:hover #Movie_Review {
     transition: all 500ms ease-in-out;
     box-shadow: 0px 0 14px rgb(108, 108, 255), 0px -0 14px rgb(135, 135, 226);
-} */
+}
 
 #Text_Based_Game {
     background-image: url("../Images/Project_Img/Text_Game_2.jpg");
@@ -220,10 +226,10 @@
     background-image: url("../Images/Project_Img/AI_Chat.png");
 }
 
-/* .card:hover #AI_Chat {
+.card:hover #AI_Chat {
     transition: all 500ms ease-in-out;
     box-shadow: 0px 0 14px rgb(91, 209, 209), 0px -0 14px rgb(84, 55, 212);
-} */
+}
 
 #AI_Voice_Assistant {
     background-image: url("../Images/Project_Img/AI_Assistant_1.jpg");
