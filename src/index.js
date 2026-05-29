@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import { SnackbarProvider } from 'notistack';
 import { HelmetProvider } from 'react-helmet-async';
 
-
 import App from "./App"
 
 
@@ -20,4 +19,3 @@ root.render(
     </React.StrictMode>
   </SnackbarProvider>
 );
-
